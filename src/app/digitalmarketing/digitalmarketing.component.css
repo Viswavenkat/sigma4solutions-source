@@ -1,0 +1,270 @@
+
+.intro,
+.intro a{
+  color:#fff;
+}
+/* customizable snowflake styling */
+.snowflake {
+  color: #fff;
+  font-size: 1em;
+  font-family: Arial;
+  text-shadow: 0 0 1px #000;
+}
+
+@-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+/* Demo Purpose Only*/
+.demo {
+  font-family: 'Raleway', sans-serif;
+	color:#fff;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    text-align: center;
+}
+.demo a{
+  font-family: 'Raleway', sans-serif;
+color: #000;		
+}
+
+.body{
+    position: relative;
+    left: 0px;
+    overflow: hidden;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    background: linear-gradient(180deg, #07001D 0%, #1B043D 0.01%, #1B0720 100%);
+
+}
+.aboutbody{
+     position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height:200px;
+    background: #1b043d;
+}
+#logos{
+    color: #ffffff00;
+}
+
+
+
+.rr{
+    margin-top: 55px;
+}
+.r1{
+    width: 680px; height: 12px; flex-shrink: 0; margin-left: -10px; margin-bottom: 10px;
+background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+
+}
+
+.r2{
+    width: 338px; height: 12px;flex-shrink: 0;
+    background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 50.52%, rgba(250, 243, 255, 0.00) 100%);
+    margin-left: -10px; margin-bottom: 10px;
+}
+.r3{
+    width: 179px; height: 12px; margin-left: -10px; flex-shrink: 0;
+background: linear-gradient(90deg, #A634FF 0%, rgba(205, 142, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+}
+
+.r4{
+    width: 179px; height: 12px; flex-shrink: 0; margin-bottom: 10px;
+    background: linear-gradient(90deg, #A634FF 0%, rgba(196, 122, 255, 0.33) 44.79%, rgba(250, 243, 255, 0.00) 100%);
+}
+.r5{
+    width: 338px; height: 12px;  margin-bottom: 10px; flex-shrink: 0;
+    background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 50.52%, rgba(250, 243, 255, 0.00) 100%);
+}
+.r6{
+    width: 687px; height: 12px; flex-shrink: 0;
+background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+}
+
+
+
+
+.aboutus{
+    text-align: center;
+    align-items: center;
+        position: relative;
+        color: #FFF;
+    font-family: 'Urbanist',sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    .aboutusbl{
+    position:absolute;
+        width: 200px;
+    height: 40px;
+    flex-shrink: 0;
+    left: 566px;
+    top: 10px;
+    opacity:45%;
+    fill: rgba(235, 249, 255, 0.05);
+    filter: blur(35px);
+    }
+    
+    
+    .rb1{
+        width: 332px;
+        position: absolute;
+    height:  332px;
+    flex-shrink: 0;
+    border-radius: 332px;
+    background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
+    filter: blur(194.5px);
+    margin-left: 444px;
+    top: 141px;
+    }
+
+    .elipsdes
+    {
+       text-align: center;
+    }   
+
+    
+.rb1{
+    width: 332px;   position: absolute;height:  332px;
+flex-shrink: 0;border-radius: 332px;background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
+filter: blur(194.5px);margin-left: 444px; top: 141px;
+}
+
+
+.lr{  transform: scaleX(-1); margin-right: 0px;  }
+
+.kkheading1{
+        text-align: center;
+        align-items: center;
+            position: relative;
+            color: #ee9d11;
+        font-family: 'Urbanist',sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        }
+    
+.kktext1{
+    font-family: 'Urbanist',sans-serif;
+    color: #FFF;
+    font-size: 22px;
+line-height: 40px;
+
+}
+
+.kkheading2{
+    font-family: 'Urbanist',sans-serif;
+    color: #ee9d11;
+    font-size: 36px;
+    font-weight: 600;
+
+}
+
+.kkserbx1{
+    padding: 20px;
+    width: 372px;
+height: 361px;
+flex-shrink: 0;
+border-radius: 30px 0px 30px 0px;
+border: 2px solid #E8E8E8;
+background: #FFF;
+}
+
+.kktitle1{
+    font-family: 'Urbanist',sans-serif;
+    color: #ee9d11;
+margin-top: 10px;
+font-size: 20px;
+font-weight: 600;
+}
+.kksub1{
+font-family: 'Urbanist',sans-serif;
+font-size: 14px;
+text-align: justify;
+}
+
+.kkserbx1:hover{
+    border-radius: 0px 30px 0px 30px;
+    transform: translateY(-10px);   
+    transition: transform 0.7s ease;
+    background: linear-gradient(90deg, rgba(27,4,61,1) 0%, rgba(170,67,92,1) 0%, rgba(162,122,74,1) 100%, rgba(255,226,0,1) 100%);
+}
+
+.kkserbx1:hover .kksub1{
+    color: #FFF;
+}
+.kkserbx1:hover .kktitle1{
+    font-weight: 800;
+}
+.kkserbx1:hover .kkboxicon{
+    width: 72px;
+    height: 57px;
+    border-radius: 0px 10px 0px 10px;
+    align-items: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+
+}
+.boxicon{
+    width: 17%;
+}
+.kkserbx1:hover .boxicon{
+    width: 80%;
+    padding: 1px;
+}
+
+
+.accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    color: #133D49;
+    font-family: 'Urbanist',sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    margin-top: 10px;
+    line-height: 28px;
+
+}
+.accordion {
+--bs-accordion-border-radius: 5px;
+--bs-accordion-border-color: #FFD789;
+--bs-accordion-active-bg: #FFD789;
+--bs-accordion-btn-focus-border-color: #FFD789;
+--bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem  rgba(255, 215, 137, 0.25);
+--bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+--bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='transparent' stroke-width='5' stroke-linecap='round' /%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round' /%3E%3C/svg%3E");
+}
+
+.accordion-flush .accordion-item {
+border: 3px solid #FFD789;
+/* border-radius: 12px;
+margin-top: 1.5rem; */
+}
+
+.accordion-button,
+.accordion-header {
+border-radius: inherit !important;
+color: #133D49;
+font-family: 'Urbanist',sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+/* line-height: 38px; */
+}
+.kkheading3{
+    font-family: 'Urbanist',sans-serif;
+    color: #ee9d11;
+    font-size: 36px;
+    font-weight: 600;
+text-align: center;
+margin-top: 30px;
+}
+.kkaccimg{
+    margin-left: -100px;
+    margin-top: 109px;
+}

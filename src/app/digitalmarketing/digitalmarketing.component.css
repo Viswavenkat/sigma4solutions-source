@@ -92,7 +92,7 @@ background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%,
         position: relative;
         color: #FFF;
     font-family: 'Urbanist',sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -154,25 +154,31 @@ filter: blur(194.5px);margin-left: 444px; top: 141px;
     color: #FFF;
     font-size: 22px;
 line-height: 40px;
+text-align: justify;
 
 }
 
 .kkheading2{
-    font-family: 'Urbanist',sans-serif;
+    font-family: 'Urbanist', sans-serif;
     color: #ee9d11;
     font-size: 36px;
-    font-weight: 600;
+    padding: 20px;
+    margin-left: 90px;
+    font-weight: 600; 
 
 }
 
 .kkserbx1{
     padding: 20px;
     width: 372px;
-height: 361px;
+height: 262px;
 flex-shrink: 0;
 border-radius: 30px 0px 30px 0px;
 border: 2px solid #E8E8E8;
 background: #FFF;
+transition: 0.7s ease;
+position: relative;
+z-index: 1;
 }
 
 .kktitle1{
@@ -222,39 +228,50 @@ text-align: justify;
 
 .accordion-body {
     padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
-    color: #133D49;
-    font-family: 'Urbanist',sans-serif;
+    color: #1B0720;
+    font-family: urbanist;
     font-size: 18px;
     font-style: normal;
-    margin-top: 10px;
-    line-height: 28px;
-
+    line-height: 38px;
 }
+
+
 .accordion {
 --bs-accordion-border-radius: 5px;
---bs-accordion-border-color: #FFD789;
---bs-accordion-active-bg: #FFD789;
---bs-accordion-btn-focus-border-color: #FFD789;
+--bs-accordion-border-color: #FF891D;
+--bs-accordion-active-bg:  rgba(255, 255, 255, 0.20);
+--bs-accordion-btn-focus-border-color: #FF891D;
 --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem  rgba(255, 215, 137, 0.25);
---bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E%0A");
---bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='transparent' stroke-width='5' stroke-linecap='round' /%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round' /%3E%3C/svg%3E");
+--bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='black' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+--bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='transparent' stroke-width='3' stroke-linecap='round' /%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='3' stroke-linecap='round' /%3E%3C/svg%3E");
 }
 
 .accordion-flush .accordion-item {
-border: 3px solid #FFD789;
-/* border-radius: 12px;
-margin-top: 1.5rem; */
+border: solid rgb(255, 255, 255, 0.5) 3px;;
+border-radius: 0px;
+margin-top: 1.5rem;
+
 }
 
 .accordion-button,
 .accordion-header {
-border-radius: inherit !important;
-color: #133D49;
-font-family: 'Urbanist',sans-serif;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-/* line-height: 38px; */
+    color: #1B0720;
+    font-family: urbanist;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    height: 43px;
+    margin-top: 0px;
+
+}
+.kkheading4{
+    font-family: 'Urbanist',sans-serif;
+    color: #ee9d11;
+    font-size: 36px;
+    font-weight: 600;
+text-align: justify;
+margin-top: 80px;
+line-height:48px;
 }
 .kkheading3{
     font-family: 'Urbanist',sans-serif;
@@ -262,9 +279,64 @@ font-weight: 600;
     font-size: 36px;
     font-weight: 600;
 text-align: center;
-margin-top: 30px;
+margin-top: 80px;
 }
+
 .kkaccimg{
-    margin-left: -100px;
-    margin-top: 109px;
+    margin-left:0px;
+    margin-top: 15px;
+    width: 100%;
 }
+.kksub2{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    line-height: 27px;
+    text-align: justify;
+        }
+        
+        .kkimgbx1{
+        width: 72px;
+        height: 71px;
+        border-radius: 0px 10px 0px 10px;
+        align-items: center;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: space-around;
+        }
+
+        .kkimgv2{
+            width: 100%;
+        }
+
+        .kkidrow{
+height: 300px;
+overflow-y: scroll;
+scrollbar-arrow-color: #A634FF;
+        }
+
+        .kksub3{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    color: #FFF;
+    line-height: 27px;
+    text-align: justify;
+        }
+
+        .kksub31{
+            
+    font-family: 'Urbanist',sans-serif;
+    color: #ee9d11;
+    font-size: 24px;
+    font-weight: 600;
+text-align: justify;
+margin-top: 80px;
+line-height:48px;
+        }
+
+        .kkimgser1{
+            margin-left: -195px;
+            position: absolute;
+        
+        }
+

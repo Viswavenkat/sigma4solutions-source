@@ -23,6 +23,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { CacheInterceptor } from './cache.interceptor';
 import { CourseComponent } from './course/course.component';
 import { DigitalmarketingComponent } from './digitalmarketing/digitalmarketing.component';
+import { EnrollComponent } from './enroll/enroll.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,6 +35,7 @@ import { DigitalmarketingComponent } from './digitalmarketing/digitalmarketing.c
     SoftwareComponent,
     CourseComponent,
     DigitalmarketingComponent,
+    EnrollComponent,
 
   ],
   imports: [

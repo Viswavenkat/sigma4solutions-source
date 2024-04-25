@@ -1,0 +1,154 @@
+<div class="aboutbody"></div>
+<div class="body">
+
+
+    <div class="container">
+  
+ 
+
+
+
+
+
+
+      <br>
+      <div >
+        <p class="headcls"> Please fill the below details our team will contact you</p>
+        <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm.value)">
+          <div class="row">
+            <div class=" col-12 ">
+              <div class="form mb-3">
+                <p class="lablcls">Name</p>
+                <input class="form-control" id="floatingInput" type="text" name="Name" placeholder="Enter your Name"
+                  ngModel required>
+              </div>
+            </div>
+            <!-- <div class="col-lg-6 col-12 ">
+                <div class="form mb-3"> 
+                    <p class="lablcls">DOB</p>
+                <input  class="form-control" id="floatingInput" type="date" name="DateofBirth" placeholder="Enter your date of birth" ngModel required>
+              </div>
+            </div> -->
+          </div>
+
+          <div class="row">
+            <div class=" col-12">
+              <div class="form mb-3">
+                <p class="lablcls">Training or Internship</p>
+                <div class="position-relative">
+                  <select class="form-select" name="internortraining" class="form-control  " id="floatingInput"
+                    type="text" placeholder="intern or training" ngModel required required id="floatingInput"
+                    id="autoSizingSelect">
+                    <option selected>Internship </option>
+                    <option value="Training"> Training</option>
+                  </select>
+                  <svg id="autoSizingSelect" class="form-select form-control" class="drop"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" width="24" height="24">
+                    <path d="M7 10l5 5 5-5z" />
+                  </svg>
+                </div>
+
+              </div>
+            </div>
+            <!-- <div class="col-lg-6 col-12">
+            <div class="form mb-3">
+                <p  class="lablcls">Which course you want?</p>
+                <select class="form-select"name="course" class="form-control" id="floatingInput" type="text"   placeholder="Email" ngModel required required id="floatingInput" id="autoSizingSelect">
+                    <option selected>Full stack in web development </option>
+                    <option value="Full Stack In Mobile app development"> Full stack in mobile app development</option>
+                </select>
+              </div>
+        </div>
+      </div>
+     
+     <div class="row">
+        <div class="col-lg-6 col-12">
+            <div class="form mb-3">
+                <p class="lablcls">Education</p>
+                <select class="form-control"   name="Education" ngModel required  >
+                  <option class="optons" value="Engineering">Engineering</option>
+                  <option value="Arts and science">Arts and science</option>
+                  <option value="Others">Others</option>
+                </select>
+                </div>
+        </div>
+        <div class="col-lg-6 col-12">
+            <div class="form mb-3">
+                <p class="lablcls">Specification</p>
+                <input class="form-control" placeholder="Example( B.sc., Computer science)"   name="specification" ngModel required  >
+                </div>
+        </div>
+     </div>
+     
+
+    <div class="row">
+        <div class="col-lg-6 col-12 ">
+            <div class="form mb-3">
+                <p class="lablcls">Email id</p>
+                <input  class="form-control" id="floatingInput" type="text" name="Email" placeholder="Email Id" ngModel required>
+                </div>
+        </div> -->
+            <div class=" col-12">
+              <div class="form mb-3">
+                <p class="lablcls">Contact number</p>
+                <input class="form-control" id="exampleFormControlInput1" maxlength="10" type="text" name="Number"
+                  placeholder="Enter your contact number" ngModel required>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="row">
+        <div class="col-lg-6 col-12 ">
+            <div class="form mb-3"> 
+                <p class="lablcls">College Name</p>
+            <input  class="form-control" id="floatingInput" type="text" name="collegename" placeholder="Enter your college name" ngModel required>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 ">
+            <div class="form mb-3"> 
+                <p class="lablcls">Location</p>
+            <input  class="form-control" id="floatingInput" type="text" name="place" placeholder="Location of your college" ngModel required>
+          </div>
+        </div>
+    </div> -->
+
+          <div class="form mb-3">
+            <p class="lablcls">Message</p>
+            <textarea class="form-control" id="floatingInput" style="height: 100px;" type="text" name="Message"
+              placeholder="Leave your queries" ngModel></textarea>
+          </div>
+
+          <div class="d-grid mb-3  ">
+            <button type="submit" [disabled]="!contactForm.valid" data-bs-toggle="modal" data-bs-target="#exampleModal"
+              class="btn  buttonsubmit">Submit</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <!-- <div class="d-flex justify-content-center">
+    <div *ngIf="showSpinner"  class="spinner-border text-warning spinvv " role="status">
+      <span class="visually-hidden spinv ">Loading...</span>
+    </div>
+  </div> -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+          <div class="modal-body d-flex justify-content-center">
+            <br><br>
+            <p class="greet">
+              Thank you for submit your details our team will contact you soon!
+            </p>
+            <br>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>

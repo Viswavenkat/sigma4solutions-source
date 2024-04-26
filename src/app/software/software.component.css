@@ -899,7 +899,8 @@ font-size: 22px;
 
 
 /* Why Us */
-
+@media only screen and (min-width:1200px) {
+    
 .expertisecard { 
     width: 100%;
     border: 1px solid #FFB80B;
@@ -949,4 +950,127 @@ font-size: 22px;
     cursor: pointer;
     font-weight: 300;
     font-style: normal;
+}
+}
+
+@media only screen and (min-width:900px) and (max-width:1199px) {
+
+    .expertisecard { 
+        width: 100%;
+        border: 1px solid #FFB80B;
+        height: 264px;
+        margin-top: 30px;
+        padding: 20px 22px 27px 19px;
+    }
+    
+    .expertisecard:hover { 
+        border: 3px solid #FFF;
+    }
+    
+    .col-3:hover .expertisecard .whychooseusicon,
+    .col-3:hover .expertisecard .whychooseussubhead,
+    .col-3:hover .expertisecard .whychooseuscontent {
+        color: #FFB80B;
+    }
+    
+    .whychooseusicon { 
+     width: 69px;
+     margin-left: -9px;
+    }
+    
+    .col-3:hover .expertisecard .whychooseusicon svg {
+        width: 70px; 
+    }
+    
+    .whychooseussubhead{  
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 18px;
+        text-align: left;
+        cursor: pointer;
+        margin-top: 22px;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    
+    
+    
+    .whychooseuscontent { 
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 18px;
+        text-align: left;
+        cursor: pointer;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media only screen and (max-width:899px) {
+
+    .expertisecard { 
+        width: 100%;
+        border: 1px solid #FFB80B;
+        height: 264px;
+        margin-top: 30px;
+        padding: 20px 22px 27px 19px;
+    }
+    
+    .expertisecard:hover { 
+        border: 3px solid #FFF;
+    }
+    
+    .col-3:hover .expertisecard .whychooseusicon,
+    .col-3:hover .expertisecard .whychooseussubhead,
+    .col-3:hover .expertisecard .whychooseuscontent {
+        color: #FFB80B;
+    }
+    
+    .whychooseusicon { 
+     width: 69px;
+     margin-left: -9px;
+    }
+    
+    .col-3:hover .expertisecard .whychooseusicon svg {
+        width: 70px; 
+    }
+    
+    .whychooseussubhead{  
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 18px;
+        text-align: left;
+        cursor: pointer;
+        margin-top: 22px;
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+    
+    
+    
+    .whychooseuscontent { 
+        color: #FFF;
+        font-family: Urbanist;
+        font-size: 18px;
+        text-align: left;
+        cursor: pointer;
+        font-weight: 300;
+        font-style: normal;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .missionvisionhead { 
+        color: #ee9d11;
+        font-family: Urbanist;
+        font-size: 20px;
+        text-align: center;
+        font-style: normal;
+        cursor: pointer;
+        font-weight: 700;
+        margin-top: 100px;
+        line-height: normal;
+    }
 }

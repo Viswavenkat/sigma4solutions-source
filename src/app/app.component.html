@@ -24,13 +24,15 @@
                         <span [ngClass]="['button1',]" [routerLink]="['/about_us']">About Us </span>
                         <a [ngClass]="['button1','dropdown-toggle']" [matMenuTriggerFor]="menu">Services</a>
                         <mat-menu #menu="matMenu"  [ngClass]="['daps']">
+                            <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/digitalmarketing']">Digital Marketing</button>
                             <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/software_services']">Software Services</button>
+                            <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/course']">Training</button>
                            <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/e-publishing_services']">e-Publishing</button>
                            <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/accessibility_services']">Accessibility Services</button>
                            <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/data_annotation']">Data Annotation</button>
-                           <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/course']">Training</button>
+                           
 
-                           <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/digitalmarketing']">Digital Marketing</button>
+                           
                         </mat-menu>
     
                        <a [ngClass]="['button1',]" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">Join Us</a>

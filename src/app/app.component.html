@@ -95,9 +95,15 @@
                <button mat-flat-button [ngClass]="['button2','dropdown-toggle']" href="#demo" class="btn btn-primary" data-bs-toggle="collapse" >Services</button>
            </div>
        <div id="demo" class="collapse" >
+        <div>
+            <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/digitalmarketing']" data-bs-dismiss="offcanvas">Digital Marketing</button>
+        </div>
            <div>
                <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/software_services']" data-bs-dismiss="offcanvas">Software Services</button>
            </div>
+           <div>
+            <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/course']" data-bs-dismiss="offcanvas">Software Training</button>
+        </div>
            <div>
                <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/e-publishing_services']" data-bs-dismiss="offcanvas">e-Publishing</button>
            </div>
@@ -107,12 +113,6 @@
           <div>
                <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/data_annotation']" data-bs-dismiss="offcanvas">Data Annotataion</button>
            </div>
-           <div>
-            <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/course']" data-bs-dismiss="offcanvas">Software Training</button>
-        </div>
-        <div>
-            <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/digitalmarketing']" data-bs-dismiss="offcanvas">Digital Marketing</button>
-        </div>
        </div>
            <div>
                <button mat-flat-button [ngClass]="['button2',]"data-bs-toggle="offcanvas"  data-bs-target="#contact" >Join us</button>

@@ -1,330 +1,714 @@
-
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RFFLX9K40Z"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    
-      gtag('config', 'G-RFFLX9K40Z');
-    </script>
-    </head>
-    <div class="container pcview" id="top" >
-        <div class="row">
-             <div class="col-3">
-           <a  [routerLink]="['/']" >
-              <img src="./assets/Logo.png" alt="Logo" class="dtimg" >
-           </a>
-             </div>
-             <div class="col-6">
-                <div class="bn3">
-                        <a [ngClass]="['button1',]" [routerLink]="['/']" >Home </a>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-RFFLX9K40Z"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-                        <span [ngClass]="['button1',]" [routerLink]="['/about_us']">About Us </span>
-                        <a [ngClass]="['button1','dropdown-toggle']" [matMenuTriggerFor]="menu">Services</a>
-                        <mat-menu #menu="matMenu"  [ngClass]="['daps']">
-                            <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/digitalmarketing']">Digital Marketing</button>
-                            <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/software_services']">Software Services</button>
-                            <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/course']">Training</button>
-                           <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/e-publishing_services']">e-Publishing</button>
-                           <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/accessibility_services']">Accessibility Services</button>
-                           <button [ngClass]="['daps2']" mat-menu-item [routerLink]="['/data_annotation']">Data Annotation</button>
-                           
+    gtag("config", "G-RFFLX9K40Z");
+  </script>
+</head>
+<div class="container pcview" id="top">
+  <div class="row">
+    <div class="col-3">
+      <a [routerLink]="['/']">
+        <img src="./assets/Logo.png" alt="Logo" class="dtimg" />
+      </a>
+    </div>
+    <div class="col-6">
+      <div class="bn3">
+        <a [ngClass]="['button1']" [routerLink]="['/']">Home </a>
 
-                           
-                        </mat-menu>
-    
-                       <a [ngClass]="['button1',]" type="button" data-bs-toggle="offcanvas" data-bs-target="#contact">Join Us</a>
-                       
-                       
-               </div>                  
-             </div>
-             <div class="col-3">
-               <a target="blank" href="https://api.whatsapp.com/send?phone=6379981909" mat-flat-button [ngStyle]="{'background-color':color}" [ngClass]="['bn5 ','button5']"> <img src="./assets/whatsapp.png" alt="what" title=""   style="width:25px; color: white;">Contact us  </a>
-             </div>
-    
-         </div>
-    </div>
-    <div class="container-fluid mobileview">
-       <div class="row">
-            <div class="col-9">
-           <a  [routerLink]="['']" >
-               <img src="./assets/Logo.png" alt="Logo" class="mbimg1">
-           </a>
-            </div>  
-            <div class="col-1"></div>
-            <div class="col-2">
-               <a type="button" data-bs-toggle="offcanvas" data-bs-target="#demo1">
-                   <img src="./assets/menupage.png" alt="Logo" class="mbimg2">
-               </a>
-            </div>
-            
-       </div>
-    </div>
-    <div class="offcanvas mbviewport offcanvas-end" id="demo1"  >
-       <div class="offcanvas-header">
-           <div class="container-fluid">
-               <div class="row">
-                   <div class="col-2">
-                   <a  [routerLink]="['/']" >
-                      <img src="./assets/Logo.png" class="mblog" title=""  alt="Logo" data-bs-dismiss="offcanvas">
-                   </a>
-                   </div>
-                   <div class="col-8">
-                           
-                   </div>
-                   
-                   <div class="col-2">
-                       <img src="./assets/close.png" class="mblogimg"   title=""  alt="Logo" data-bs-dismiss="offcanvas">
-                   </div>
-               </div>
-           </div>
-          
-       
-       </div>
-       <div class="offcanvas-body">
-           
-           <div>
-               <a mat-flat-button [ngClass]="['button2',]" [routerLink]="['/']" data-bs-dismiss="offcanvas">Home </a>
-           </div>
-           <div>
-               <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/about_us']" data-bs-dismiss="offcanvas">About us </button>
-           </div>
-           <div>
-               <button mat-flat-button [ngClass]="['button2','dropdown-toggle']" href="#demo" class="btn btn-primary" data-bs-toggle="collapse" >Services</button>
-           </div>
-       <div id="demo" class="collapse" >
-        <div>
-            <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/digitalmarketing']" data-bs-dismiss="offcanvas">Digital Marketing</button>
-        </div>
-           <div>
-               <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/software_services']" data-bs-dismiss="offcanvas">Software Services</button>
-           </div>
-           <div>
-            <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/course']" data-bs-dismiss="offcanvas">Software Training</button>
-        </div>
-           <div>
-               <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/e-publishing_services']" data-bs-dismiss="offcanvas">e-Publishing</button>
-           </div>
-           <div>
-               <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/accessibility_services']" data-bs-dismiss="offcanvas">Accessibility</button>
-           </div>
-          <div>
-               <button mat-flat-button [ngClass]="['button2',]" [routerLink]="['/data_annotation']" data-bs-dismiss="offcanvas">Data Annotataion</button>
-           </div>
-       </div>
-           <div>
-               <button mat-flat-button [ngClass]="['button2',]"data-bs-toggle="offcanvas"  data-bs-target="#contact" >Join us</button>
-           </div>
-           <div>
-               <a target="_blank" href="https://api.whatsapp.com/send?phone=6379981909" mat-flat-button [ngClass]="['button2',]"  ><img src="./assets/whatsapp.png" title="" alt="whatsapp" style="width:20px;">Contact us</a>
-           </div>
-          
-       </div>
-     </div>
-    
-    <router-outlet></router-outlet>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <div id="foot">
-       <div class="container " >
-     <div class="row">
-         <div class="col-md-6 mt-3">
-             <p class="footc">If you have any questions or would like more information about our services, please don’t hesitate to reach out. </p>
-         </div>
-         <div class="col-md-6 mvbtn">
-         <button   [routerLink]="['/enroll']" (click)="scrollToTop()" mat-button class="btn2"><span class="text2" style="color: white;" >Get A Free Quote</span></button>
-         </div>
-     </div>
+        <span [ngClass]="['button1']" [routerLink]="['/about_us']"
+          >About Us
+        </span>
+        <a [ngClass]="['button1', 'dropdown-toggle']" [matMenuTriggerFor]="menu"
+          >Services</a
+        >
+        <mat-menu #menu="matMenu" [ngClass]="['daps']">
+          <button
+            [ngClass]="['daps2']"
+            mat-menu-item
+            [routerLink]="['/digitalmarketing']"
+          >
+            Digital Marketing
+          </button>
+          <button
+            [ngClass]="['daps2']"
+            mat-menu-item
+            [routerLink]="['/software_services']"
+          >
+            Software Services
+          </button>
+          <button
+            [ngClass]="['daps2']"
+            mat-menu-item
+            [routerLink]="['/course']"
+          >
+            Training
+          </button>
+          <button
+            [ngClass]="['daps2']"
+            mat-menu-item
+            [routerLink]="['/e-publishing_services']"
+          >
+            e-Publishing
+          </button>
+          <button
+            [ngClass]="['daps2']"
+            mat-menu-item
+            [routerLink]="['/accessibility_services']"
+          >
+            Accessibility Services
+          </button>
+          <button
+            [ngClass]="['daps2']"
+            mat-menu-item
+            [routerLink]="['/data_annotation']"
+          >
+            Data Annotation
+          </button>
+        </mat-menu>
+
+        <a
+          [ngClass]="['button1']"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#contact"
+          >Join Us</a
+        >
       </div>
     </div>
-    <div class="container-fluid pcview " id="ft">
-         <footer>
-             <div class="container text-center text-md-start ">
-                 <div class="row ">               
-                     <div class="col-lg-4 mx-auto  ">
-                          <img src="./assets/Logo.png" alt="Logo" title="" class="flogo"><p class="comp"><span class="let">Letsify</span><br>Sigma<span class="vec"><img  src="./assets/Vector.png" alt="4" title=""></span> Solutions</p>
-                         <p class="tagline">Solutions designed for your success !</p>
-                          <p class="fcont">Sigma4Solutions is a reliable service provider. We honor our 10+ year legacy of delivering the highest quality data and outstanding service to our clients.</p>                       
-                          <a target="_blank" href="https://www.linkedin.com/company/73797770/admin/feed/posts/s">
-                            <img alt="linkedin" title=""  class="icon1" src="./assets/linkedin.png"> 
-                          </a>
-                          <a target="_blank" href="https://api.whatsapp.com/send?phone=6379981909">
-                            <img alt="linkedin" title=""   class="icon1" src="./assets/wha.png"> 
-                          </a>
-                          <a target="_blank" href="https://www.facebook.com/letsifysigma4solutions">
-                            <img alt="linkedin" title=""   class="icon1" src="./assets/fb.png"> 
-                        </a>
-                     </div>
-                     <div class="col-sm-3  mx-auto ft0">
-                           <p class="footh3">Quick Links</p >
-                           <div>
-                               <a  [routerLink]="['']" (click)="scrollToTop()" class="ftext">Home</a>
-                            </div>
-                           <div>
-                               <p [routerLink]="['/about_us']" (click)="scrollToTop()" class="ftext1">About Us</p>
-                           </div>
-                           <div>
-                               <p [routerLink]="['/software_services']" (click)="scrollToTop()" class="ftext">Services</p>
-                           </div>
-                     </div>
-                     <div class="col-sm-3 mx-auto ft ">
-                           <p class="footh3">Our Services</p >
-                           <div>
-                            <p [routerLink]="['/software_services']" (click)="scrollToTop()" class="ftext">Software Development</p>
-                           </div> 
-                           <div>
-                                <p [routerLink]="['/e-publishing_services']" (click)="scrollToTop()" class="ftext">e-Publishing Services</p>
-                           </div>
-                           <div>
-                                <p [routerLink]="['/accessibility_services']" (click)="scrollToTop()" class="ftext">Accessibility Services</p>
-                           </div>
-                           <div>
-                            <p [routerLink]="['/data_annotation']" (click)="scrollToTop()" class="ftext">Data Annotation </p>
-                           </div>
-                          
-                     </div>
-                     <div class="col-sm-2 mx-auto ft">     
-                           <p class="footh3" >Contact</p>
-                       <img src="./assets/location.png" alt="Sigma4solutions" title="" class="loc"> <a style="text-decoration: none;" target="_blank" href="https://www.google.com/maps/place/Letsify+Sigma4Solutions/@10.0658668,78.7870516,19z/data=!4m14!1m7!3m6!1s0x3b00675dbfffffff:0x910acd04bef80762!2sLetsify+Sigma4Solutions!8m2!3d10.0657308!4d78.7877114!16s%2Fg%2F11bvv4tnt9!3m5!1s0x3b00675dbfffffff:0x910acd04bef80762!8m2!3d10.0657308!4d78.7877114!16s%2Fg%2F11bvv4tnt9?entry=ttu"> <p class="ftext12 mt-1"> Plot No 11/2,<br> Railway Arch Road, Kannadasan Nagar 6th Street, Karaikudi-630003, Tamil Nadu, India.</p></a>
-                          
-                           <div style='margin-top:-10px'> 
-                            <img src="./assets/mail.png" alt="Sigma4solutions" title="" class="mailv">  <p><a class="ftext" href="mailto:someone@example.com">  admin&#64;sigma4solutions.com </a></p></div> 
-                            <div style='margin-top:-10px'> 
-                                <img src="./assets/call.png" alt="Sigma4solutions" title="" class="call">  <br>  <a href="tel:+916379981909" class=" ftext">+91 6379981909</a>
-                                <p><a href="tel:+914565234505" class= "ftext">+91 4565-234505</a></p></div>
-                         
-                     </div>
-                 </div>
-             </div>
-             <div class="text-center p-4 cr">
-                © Copyright 2023 - Letsify Sigma4Solutions Private Limited - All rights reserved
-             </div>
-         </footer>                           
+    <div class="col-3">
+      <a
+        target="blank"
+        href="https://api.whatsapp.com/send?phone=6379981909"
+        mat-flat-button
+        [ngStyle]="{ 'background-color': color }"
+        [ngClass]="['bn5 ', 'button5']"
+      >
+        <img
+          src="./assets/whatsapp.png"
+          alt="what"
+          title=""
+          style="width: 25px; color: white"
+        />Contact us
+      </a>
     </div>
-    
-    <div class="mobileview mvfo">
-       <div class="container-fluid">
-            <p class="quicklink">Quick Links</p>
-            <div>
-            <a [routerLink]="['']" (click)="scrollToTop()" class="ftext">Home</a>
-            </div>
-           <div>
-               <p [routerLink]="['/about_us']" (click)="scrollToTop()" class="ftext">About Us</p>
-           </div>
-           <div>
-               <p [routerLink]="['/software_services']" (click)="scrollToTop()" class="ftext">Services</p>
-           </div>
-       </div>
-       <div class="container-fluid">
-           <p class="quicklink">Services</p>
-           <div>
-            <p [routerLink]="['/software_services']" (click)="scrollToTop()" class="ftext">Software Services</p>
-           </div>
-          <div>
-              <p [routerLink]="['/e-publishing_services']" (click)="scrollToTop()" class="ftext">e-Publishing Services</p>
-          </div>
-          <div>
-              <p [routerLink]="['/accessibility_services']" (click)="scrollToTop()" class="ftext">Accessibility Services</p>
-          </div>
-                 <p [routerLink]="['/data_annotation']" (click)="scrollToTop()" class="ftext">Data Annotation</p>
-         
-           
-    
-       </div>
-       <div class="container-fluid">
-           <div class="row">
-               <div class="col-6">
-                   <p class="quicklink">Contact</p>
-                   <p>
-                      <a data-bs-toggle="offcanvas" data-bs-target="#contact" class="ftext">Drop An Enquiry</a>
-                   </p>
-                   <p>
-                     <a href="https://goo.gl/maps/vLw9z9KnDupmAUd6A" target="_blank" class="ftext">Find Us</a>
-                    </p>
-                    
-                    <p> <a href="tel:+916379981909" class="ftext ">+91 6379981909</a></p> 
-                </div>
-                <div class="col-6">
-                <div class="mvicon">
-                   <p>
-                   <a target="_blank" href="https://www.linkedin.com/company/73797770/admin/feed/posts/">
-                    <img alt="linkedin" title=""   class="mvicon1" src="./assets/linkedin.png"> 
-                   </a>
-                   </p>
-                   <p>
-                    <a target="_blank" href="https://api.whatsapp.com/send?phone=6379981909">
-                        <img alt="linkedin" title=""   class="mvicon1" src="./assets/wha.png"> 
-                    </a>
-                   </p>
-                   <p>
-                    <a href="https://www.facebook.com/letsifysigma4solutions" target="_blank">
-                      <img alt="linkedin" title=""   class="mvicon1" src="./assets/fb.png"> 
-                    </a>
-                   </p>
-               </div>
-           </div>
-           </div>
-       </div>
-       <div class="  cr">
-        © Copyright 2023 - Letsify Sigma4Solutions Private Limited - All rights reserved
-       </div>
+  </div>
+</div>
+<div class="container-fluid mobileview">
+  <div class="row">
+    <div class="col-9">
+      <a [routerLink]="['']">
+        <img src="./assets/Logo.png" alt="Logo" class="mbimg1" />
+      </a>
     </div>
-    
-    
-    
-    
-    <a class="tb" type="button" (click)="scrollToTop()">
-       <img src="./assets/scrollimg.png" alt="scrollbtn" type="button" id="scrollToTopButton" style="width:30px;height:30px; margin:10px; border-radius:100%;" >
+    <div class="col-1"></div>
+    <div class="col-2">
+      <a type="button" data-bs-toggle="offcanvas" data-bs-target="#demo1">
+        <img src="./assets/menupage.png" alt="Logo" class="mbimg2" />
+      </a>
+    </div>
+  </div>
+</div>
+<div class="offcanvas mbviewport offcanvas-end" id="demo1">
+  <div class="offcanvas-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2">
+          <a [routerLink]="['/']">
+            <img
+              src="./assets/Logo.png"
+              class="mblog"
+              title=""
+              alt="Logo"
+              data-bs-dismiss="offcanvas"
+            />
+          </a>
+        </div>
+        <div class="col-8"></div>
+
+        <div class="col-2">
+          <img
+            src="./assets/close.png"
+            class="mblogimg"
+            title=""
+            alt="Logo"
+            data-bs-dismiss="offcanvas"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+      <a
+        mat-flat-button
+        [ngClass]="['button2']"
+        [routerLink]="['/']"
+        data-bs-dismiss="offcanvas"
+        >Home
+      </a>
+    </div>
+    <div>
+      <button
+        mat-flat-button
+        [ngClass]="['button2']"
+        [routerLink]="['/about_us']"
+        data-bs-dismiss="offcanvas"
+      >
+        About us
+      </button>
+    </div>
+    <div>
+      <button
+        mat-flat-button
+        [ngClass]="['button2', 'dropdown-toggle']"
+        href="#demo"
+        class="btn btn-primary"
+        data-bs-toggle="collapse"
+      >
+        Services
+      </button>
+    </div>
+    <div id="demo" class="collapse">
+      <div>
+        <button
+          mat-flat-button
+          [ngClass]="['button2']"
+          [routerLink]="['/digitalmarketing']"
+          data-bs-dismiss="offcanvas"
+        >
+          Digital Marketing
+        </button>
+      </div>
+      <div>
+        <button
+          mat-flat-button
+          [ngClass]="['button2']"
+          [routerLink]="['/software_services']"
+          data-bs-dismiss="offcanvas"
+        >
+          Software Services
+        </button>
+      </div>
+      <div>
+        <button
+          mat-flat-button
+          [ngClass]="['button2']"
+          [routerLink]="['/course']"
+          data-bs-dismiss="offcanvas"
+        >
+          Software Training
+        </button>
+      </div>
+      <div>
+        <button
+          mat-flat-button
+          [ngClass]="['button2']"
+          [routerLink]="['/e-publishing_services']"
+          data-bs-dismiss="offcanvas"
+        >
+          e-Publishing
+        </button>
+      </div>
+      <div>
+        <button
+          mat-flat-button
+          [ngClass]="['button2']"
+          [routerLink]="['/accessibility_services']"
+          data-bs-dismiss="offcanvas"
+        >
+          Accessibility
+        </button>
+      </div>
+      <div>
+        <button
+          mat-flat-button
+          [ngClass]="['button2']"
+          [routerLink]="['/data_annotation']"
+          data-bs-dismiss="offcanvas"
+        >
+          Data Annotataion
+        </button>
+      </div>
+    </div>
+    <div>
+      <button
+        mat-flat-button
+        [ngClass]="['button2']"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#contact"
+      >
+        Join us
+      </button>
+    </div>
+    <div>
+      <a
+        target="_blank"
+        href="https://api.whatsapp.com/send?phone=6379981909"
+        mat-flat-button
+        [ngClass]="['button2']"
+        ><img
+          src="./assets/whatsapp.png"
+          title=""
+          alt="whatsapp"
+          style="width: 20px"
+        />Contact us</a
+      >
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<div id="foot">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mt-3">
+        <p class="footc">
+          If you have any questions or would like more information about our
+          services, please don’t hesitate to reach out.
+        </p>
+      </div>
+      <div class="col-md-6 mvbtn">
+        <button
+          [routerLink]="['/enroll']"
+          (click)="scrollToTop()"
+          mat-button
+          class="btn2"
+        >
+          <span class="text2" style="color: white">Get A Free Quote</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid pcview" id="ft">
+  <footer>
+    <div class="container text-center text-md-start">
+      <div class="row">
+        <div class="col-lg-4 mx-auto">
+          <img src="./assets/Logo.png" alt="Logo" title="" class="flogo" />
+          <p class="comp">
+            <span class="let">Letsify</span><br />Sigma<span class="vec"
+              ><img src="./assets/Vector.png" alt="4" title=""
+            /></span>
+            Solutions
+          </p>
+          <p class="tagline">Solutions designed for your success !</p>
+          <p class="fcont">
+            Sigma4Solutions is a reliable service provider. We honor our 10+
+            year legacy of delivering the highest quality data and outstanding
+            service to our clients.
+          </p>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/73797770/admin/feed/posts/s"
+          >
+            <img
+              alt="linkedin"
+              title=""
+              class="icon1"
+              src="./assets/linkedin.png"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://api.whatsapp.com/send?phone=6379981909"
+          >
+            <img alt="linkedin" title="" class="icon1" src="./assets/wha.png" />
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/letsifysigma4solutions"
+          >
+            <img alt="linkedin" title="" class="icon1" src="./assets/fb.png" />
+          </a>
+            <a
+              href="https://www.instagram.com/sigma4solutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"  
+            >
+
+     <svg viewBox="0 0 24.00 24.00" style="margin-top: 19px;" fill="none" xmlns="http://www.w3.org/2000/svg"  width="40" height="40" stroke="#FF8000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#FF8000"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#FF8000"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#FF8000"></path> </g></svg>
     </a>
-    
-    
-    
-    
-    <div class="offcanvas cpage offcanvas-top" id="contact">
-       <div class="container">
-          <img src="./assets/close.png" alt="endbtn" class="endbtn" data-bs-dismiss="offcanvas">
-       </div>
-      <div class="cpage1 d-flex justify-content-center"> 
-       <form  #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm.value)" >
-           <p class="pleasedetail">Please enter details.</p>
-           <p class="backsoon">We'll call back Soon</p>
-           <div class="example-container">
-              <div>Your Name<br> 
-                  <input  class="name input" mat-input type="text"   name="Name" placeholder="John doe"  ngModel>
-                     <!-- <span class="req" *ngIf="!contactForm.controls.firstName.valid && (contactForm.controls.firstName.touched || contactForm.controls.firstName.dirty) ">
+        
+        </div>
+        <div class="col-sm-3 mx-auto ft0">
+          <p class="footh3">Quick Links</p>
+          <div>
+            <a [routerLink]="['']" (click)="scrollToTop()" class="ftext"
+              >Home</a
+            >
+          </div>
+          <div>
+            <p
+              [routerLink]="['/about_us']"
+              (click)="scrollToTop()"
+              class="ftext1"
+            >
+              About Us
+            </p>
+          </div>
+          <div>
+            <p
+              [routerLink]="['/software_services']"
+              (click)="scrollToTop()"
+              class="ftext"
+            >
+              Services
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-3 mx-auto ft">
+          <p class="footh3">Our Services</p>
+          <div>
+            <p
+              [routerLink]="['/digitalmarketing']"
+              (click)="scrollToTop()"
+              class="ftext1"
+            >
+              Digital Marketing
+            </p>
+          </div>
+          <div>
+            <p
+              [routerLink]="['/course']"
+              (click)="scrollToTop()"
+              class="ftext1"
+            >
+              Training Program
+            </p>
+          </div> 
+          <div>
+            <p
+              [routerLink]="['/software_services']"
+              (click)="scrollToTop()"
+              class="ftext"
+            >
+              Software Development
+            </p>
+          </div>
+          <div>
+            <p
+              [routerLink]="['/e-publishing_services']"
+              (click)="scrollToTop()"
+              class="ftext"
+            >
+              e-Publishing Services
+            </p>
+          </div>
+          <div>
+            <p
+              [routerLink]="['/accessibility_services']"
+              (click)="scrollToTop()"
+              class="ftext"
+            >
+              Accessibility Services
+            </p>
+          </div>
+          <div>
+            <p
+              [routerLink]="['/data_annotation']"
+              (click)="scrollToTop()"
+              class="ftext"
+            >
+              Data Annotation
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-2 mx-auto ft">
+          <p class="footh3">Contact</p>
+          <img
+            src="./assets/location.png"
+            alt="Sigma4solutions"
+            title=""
+            class="loc"
+          />
+          <a
+            style="text-decoration: none"
+            target="_blank"
+            href="https://www.google.com/maps/place/Letsify+Sigma4Solutions/@10.0658668,78.7870516,19z/data=!4m14!1m7!3m6!1s0x3b00675dbfffffff:0x910acd04bef80762!2sLetsify+Sigma4Solutions!8m2!3d10.0657308!4d78.7877114!16s%2Fg%2F11bvv4tnt9!3m5!1s0x3b00675dbfffffff:0x910acd04bef80762!8m2!3d10.0657308!4d78.7877114!16s%2Fg%2F11bvv4tnt9?entry=ttu"
+          >
+            <p class="ftext12 mt-1">
+              Plot No 11/2,<br />
+              Railway Arch Road, Kannadasan Nagar 6th Street, Karaikudi-630003,
+              Tamil Nadu, India.
+            </p></a
+          >
+
+          <div style="margin-top: -10px">
+            <img
+              src="./assets/mail.png"
+              alt="Sigma4solutions"
+              title=""
+              class="mailv"
+            />
+            <p>
+              <a class="ftext" href="mailto:someone@example.com">
+                admin&#64;sigma4solutions.com
+              </a>
+            </p>
+          </div>
+          <div style="margin-top: -10px">
+            <img
+              src="./assets/call.png"
+              alt="Sigma4solutions"
+              title=""
+              class="call"
+            />
+            <br />
+            <a href="tel:+916379981909" class="ftext">+91 6379981909</a>
+            <p><a href="tel:+914565234505" class="ftext">+91 4565-234505</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-4 cr">
+      © Copyright 2024 - Letsify Sigma4Solutions Private Limited - All rights
+      reserved
+    </div>
+  </footer>
+</div>
+
+<div class="mobileview mvfo">
+  <div class="container-fluid">
+    <p class="quicklink">Quick Links</p>
+    <div>
+      <a [routerLink]="['']" (click)="scrollToTop()" class="ftext">Home</a>
+    </div>
+    <div>
+      <p [routerLink]="['/about_us']" (click)="scrollToTop()" class="ftext">
+        About Us
+      </p>
+    </div>
+    <div>
+      <p
+        [routerLink]="['/software_services']"
+        (click)="scrollToTop()"
+        class="ftext"
+      >
+        Services
+      </p>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <p class="quicklink">Services</p>
+    <div>
+        <p
+          [routerLink]="['/digitalmarketing']"
+          (click)="scrollToTop()"
+          class="ftext"
+        >
+          Digital Marketing
+        </p>
+      </div>
+      <div>
+        <p
+          [routerLink]="['/course']"
+          (click)="scrollToTop()"
+          class="ftext"
+        >
+          Training Program
+        </p>
+      </div>
+    <div>
+      <p
+        [routerLink]="['/software_services']"
+        (click)="scrollToTop()"
+        class="ftext"
+      >
+        Software Services
+      </p>
+    </div>
+    <div>
+      <p
+        [routerLink]="['/e-publishing_services']"
+        (click)="scrollToTop()"
+        class="ftext"
+      >
+        e-Publishing Services
+      </p>
+    </div>
+    <div>
+      <p
+        [routerLink]="['/accessibility_services']"
+        (click)="scrollToTop()"
+        class="ftext"
+      >
+        Accessibility Services
+      </p>
+    </div>
+    <p
+      [routerLink]="['/data_annotation']"
+      (click)="scrollToTop()"
+      class="ftext"
+    >
+      Data Annotation
+    </p>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">
+        <p class="quicklink">Contact</p>
+        <p>
+          <a data-bs-toggle="offcanvas" data-bs-target="#contact" class="ftext"
+            >Drop An Enquiry</a
+          >
+        </p>
+        <p>
+          <a
+            href="https://goo.gl/maps/vLw9z9KnDupmAUd6A"
+            target="_blank"
+            class="ftext"
+            >Find Us</a
+          >
+        </p>
+
+        <p><a href="tel:+916379981909" class="ftext">+91 6379981909</a></p>
+      </div>
+      <div class="col-6">
+        <div class="mvicon">
+          <p>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/73797770/admin/feed/posts/"
+            >
+              <img
+                alt="linkedin"
+                title=""
+                class="mvicon1"
+                src="./assets/linkedin.png"
+              />
+            </a>
+          </p>
+          <p>
+            <a
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=6379981909"
+            >
+              <img
+                alt="linkedin"
+                title=""
+                class="mvicon1"
+                src="./assets/wha.png"
+              />
+            </a>
+          </p>
+     
+          <p>
+            <a
+              href="https://www.facebook.com/letsifysigma4solutions"
+              target="_blank"
+            >
+              <img
+                alt="linkedin"
+                title=""
+                class="mvicon1"
+                src="./assets/fb.png"
+              />
+            </a>
+          </p>
+          <p>
+            <a
+              href="https://www.instagram.com/sigma4solutions?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==/"
+              target="_blank"
+            >
+     <svg viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FF8000" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" fill="#FF8000"></path> <path d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z" fill="#FF8000"></path> <path fill-rule="evenodd" clip-rule="evenodd" d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z" fill="#FF8000"></path> </g></svg>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="cr">
+    © Copyright 2024 - Letsify Sigma4Solutions Private Limited - All rights
+    reserved
+  </div>
+</div>
+
+<a class="tb" type="button" (click)="scrollToTop()">
+  <img
+    src="./assets/scrollimg.png"
+    alt="scrollbtn"
+    type="button"
+    id="scrollToTopButton"
+    style="width: 30px; height: 30px; margin: 10px; border-radius: 100%"
+  />
+</a>
+
+<div class="offcanvas cpage offcanvas-top" id="contact">
+  <div class="container">
+    <img
+      src="./assets/close.png"
+      alt="endbtn"
+      class="endbtn"
+      data-bs-dismiss="offcanvas"
+    />
+  </div>
+  <div class="cpage1 d-flex justify-content-center">
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm.value)">
+      <p class="pleasedetail">Please enter details.</p>
+      <p class="backsoon">We'll call back Soon</p>
+      <div class="example-container">
+        <div>
+          Your Name<br />
+          <input
+            class="name input"
+            mat-input
+            type="text"
+            name="Name"
+            placeholder="John doe"
+            ngModel
+          />
+          <!-- <span class="req" *ngIf="!contactForm.controls.firstName.valid && (contactForm.controls.firstName.touched || contactForm.controls.firstName.dirty) ">
                       <span  class="req"  *ngIf="contactForm.controls.firstName.errors?.['required'] ">
                        Firstname Required
                   </span> -->
-                  <!-- <span  class="req"  *ngIf="contactForm.controls.firstName.errors?.['maxlength'] ">
+          <!-- <span  class="req"  *ngIf="contactForm.controls.firstName.errors?.['maxlength'] ">
                    Minimum 12 Characters need
                  </span>
                    <span  class="req"  *ngIf="contactForm.controls.firstName.errors?.['pattern'] ">
                        Only Alpabets are allowed.
                      </span>
                </span> -->
-           </div>
-             <div >Phone Number<br>
-               <input  class="number input" mat-input type="text"  required placeholder="Mobile Number" name="Number" ngModel>
-               <!-- <span  class="req" *ngIf="!contactForm.controls.phone.valid && (contactForm.controls.phone.touched || contactForm.controls.phone.dirty) ">
+        </div>
+        <div>
+          Phone Number<br />
+          <input
+            class="number input"
+            mat-input
+            type="text"
+            required
+            placeholder="Mobile Number"
+            name="Number"
+            ngModel
+          />
+          <!-- <span  class="req" *ngIf="!contactForm.controls.phone.valid && (contactForm.controls.phone.touched || contactForm.controls.phone.dirty) ">
                    <span  class="req"  *ngIf="contactForm.controls.phone.errors?.['required'] ">
                        Valid Number Required
                   </span><br>
                   </span> -->
-                 </div>
-             <div>
-               Email ID <br>
-               <input class="mail input" mat-input type="email"   required placeholder="example@gmail" name="Email" ngModel>
-               <!-- <span class="req"  *ngIf="!contactForm.controls.email.valid && (contactForm.controls.email.touched || contactForm.controls.email.dirty) ">
+        </div>
+        <div>
+          Email ID <br />
+          <input
+            class="mail input"
+            mat-input
+            type="email"
+            required
+            placeholder="example@gmail"
+            name="Email"
+            ngModel
+          />
+          <!-- <span class="req"  *ngIf="!contactForm.controls.email.valid && (contactForm.controls.email.touched || contactForm.controls.email.dirty) ">
                    <span class="req"  *ngIf="contactForm.controls.email.errors?.['required'] ">
                        E-mail required
                   </span>
@@ -332,11 +716,26 @@
                    Valid E-mail are allowed
                    </span>
                  </span> -->
-               </div>
-           <div >Message<br><textarea class="msg" name="Message" ngModel  type="text area"></textarea></div>
-           
-           <button class="buttonsubmit" type="submit"  [disabled]="!contactForm.valid" data-bs-dismiss="offcanvas"  mat-raised-button>Submit</button>
-           </div>
-         </form>
-    </div>    
-    </div>
+        </div>
+        <div>
+          Message<br /><textarea
+            class="msg"
+            name="Message"
+            ngModel
+            type="text area"
+          ></textarea>
+        </div>
+
+        <button
+          class="buttonsubmit"
+          type="submit"
+          [disabled]="!contactForm.valid"
+          data-bs-dismiss="offcanvas"
+          mat-raised-button
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

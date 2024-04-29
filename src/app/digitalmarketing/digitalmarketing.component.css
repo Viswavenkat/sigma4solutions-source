@@ -2566,35 +2566,17 @@ width: 56%;
         border-radius: 0px 30px 0px 30px;
         transform: translateY(-10px);   
         transition: transform 0.7s ease;
+        color: #fff;
+        margin-top: 20px;
         background: linear-gradient(90deg, rgba(27,4,61,1) 0%, rgba(170,67,92,1) 0%, rgba(162,122,74,1) 100%, rgba(255,226,0,1) 100%);
     }
     
-    .kkserbx1:hover .kksub1{
-        color: #FFF;
-    }
-    .kkserbx1:hover .kktitle1{
-        font-weight: 600;
-    }
-    .kkserbx1:hover .kkboxicon{
-        width: 72px;
-        height: 57px;
-        border-radius: 0px 10px 0px 10px;
-        align-items: center;
-        background-color: #ffffff;
-        display: flex;
-        justify-content: space-around;
-    
-    }
+  
     .boxicon{
         width: 10%;
         float: right;
     }
-    .kkserbx1:hover .boxicon{
-        width: 80%;
-        padding: 1px;
-    }
-    
-    
+  
     .accordion-body {
         padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
         color: #1B0720;
@@ -2912,32 +2894,15 @@ width: 56%;
         border-radius: 0px 30px 0px 30px;
         transform: translateY(-10px);   
         transition: transform 0.7s ease;
+        color: #fff;
+        margin-top: 20px;
         background: linear-gradient(90deg, rgba(27,4,61,1) 0%, rgba(170,67,92,1) 0%, rgba(162,122,74,1) 100%, rgba(255,226,0,1) 100%);
     }
     
-    .kkserbx1:hover .kksub1{
-        color: #FFF;
-    }
-    .kkserbx1:hover .kktitle1{
-        font-weight: 600;
-    }
-    .kkserbx1:hover .kkboxicon{
-        width: 72px;
-        height: 57px;
-        border-radius: 0px 10px 0px 10px;
-        align-items: center;
-        background-color: #ffffff;
-        display: flex;
-        justify-content: space-around;
-    
-    }
+   
     .boxicon{
         width: 10%;
         float: right;
-    }
-    .kkserbx1:hover .boxicon{
-        width: 80%;
-        padding: 1px;
     }
     
     
@@ -3097,7 +3062,7 @@ justify-content: center;
 }
 
 
-@media only screen and (min-width:350px) and (max-width:399px)  {
+@media only screen and (min-width:250px) and (max-width:399px)  {
     .kkmrpic1{
 width: 56%;
     }
@@ -3259,33 +3224,17 @@ width: 56%;
         border-radius: 0px 30px 0px 30px;
         transform: translateY(-10px);   
         transition: transform 0.7s ease;
+        color: #fff;
+        margin-top: 20px;
         background: linear-gradient(90deg, rgba(27,4,61,1) 0%, rgba(170,67,92,1) 0%, rgba(162,122,74,1) 100%, rgba(255,226,0,1) 100%);
     }
     
-    .kkserbx1:hover .kksub1{
-        color: #FFF;
-    }
-    .kkserbx1:hover .kktitle1{
-        font-weight: 600;
-    }
-    .kkserbx1:hover .kkboxicon{
-        width: 72px;
-        height: 57px;
-        border-radius: 0px 10px 0px 10px;
-        align-items: center;
-        background-color: #ffffff;
-        display: flex;
-        justify-content: space-around;
-    
-    }
+  
     .boxicon{
         width: 10%;
         float: right;
     }
-    .kkserbx1:hover .boxicon{
-        width: 80%;
-        padding: 1px;
-    }
+ 
     
     
     .accordion-body {

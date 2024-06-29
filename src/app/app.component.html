@@ -54,6 +54,13 @@
             Training
           </button>
           <button
+          [ngClass]="['daps2']"
+          mat-menu-item
+          [routerLink]="['/internship']"
+        >
+          Internship
+        </button>
+          <button
             [ngClass]="['daps2']"
             mat-menu-item
             [routerLink]="['/e-publishing_services']"
@@ -209,6 +216,16 @@
           Software Training
         </button>
       </div>
+      <div>
+      <button
+      [ngClass]="['button2']"
+      mat-flat-button
+      [routerLink]="['/internship']"
+      data-bs-dismiss="offcanvas"
+    >
+      Internship
+    </button>
+    </div>
       <div>
         <button
           mat-flat-button
@@ -739,3 +756,4 @@
     </form>
   </div>
 </div>
+

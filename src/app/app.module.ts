@@ -24,6 +24,7 @@ import { CacheInterceptor } from './cache.interceptor';
 import { CourseComponent } from './course/course.component';
 import { DigitalmarketingComponent } from './digitalmarketing/digitalmarketing.component';
 import { EnrollComponent } from './enroll/enroll.component';
+import { InternshipComponent } from './internship/internship.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,6 +37,7 @@ import { EnrollComponent } from './enroll/enroll.component';
     CourseComponent,
     DigitalmarketingComponent,
     EnrollComponent,
+    InternshipComponent,
 
   ],
   imports: [

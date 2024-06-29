@@ -1,0 +1,1086 @@
+/* Heading */
+.h1 {
+    color: white;
+    font-family: 'Urbanist';
+    font-weight: 800;
+    font-style: normal;
+    line-height: normal;
+    font-size: 50px;
+    text-align: center;
+}
+.body {
+    top: 0%;
+    width: 100%;
+    overflow-x: hidden;
+    left: 0%;
+    background: linear-gradient(180deg, #07001D 0%, #1B043D 0.01%, #1B0720 100%);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.aboutbody {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    width: 100%;
+    height: 200px;
+    background: #1b043d;
+}
+
+
+@media screen and (min-width:776px) and (max-width:992px) {
+    .elli1 {
+        width: 498px;
+        height: 510px;
+        flex-shrink: 0;
+        border-radius: 681px;
+        background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
+        filter: blur(187px);
+        position: absolute;
+        overflow-x: hidden;
+
+        margin-left: 590px;
+        z-index: -1;
+    }
+
+
+
+    .hello {
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .h1 {
+        color: white;
+        font-family: 'Urbanist';
+        font-weight: 800;
+        font-style: normal;
+        line-height: normal;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #start {
+        margin-top: 50px;
+
+    }
+
+    .s1,
+    .bre3,
+    .s2,
+    .head4,
+    .ft3,
+    .card2 {
+        display: none;
+    }
+
+    #side {
+        float: right;
+    }
+
+    .r1,
+    .r2,
+    .r3,
+    .r4,
+    .r5,
+    .r6 {
+        height: 12px;
+        background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+        margin-left: -12px;
+    }
+
+    .r1,
+    .r6 {
+        width: 687px;
+    }
+
+    .r2,
+    .r5 {
+        width: 338px;
+    }
+
+    .r3,
+    .r4 {
+        width: 179px;
+    }
+
+    .r4,
+    .r5,
+    .r6 {
+        transform: scaleX(-1);
+        float: right;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (min-width:550px) and (max-width:775px) {
+    .hello {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #start {
+        margin-top: 90px;
+
+    }
+
+    #side {
+        float: right;
+        position: absolute;
+
+    }
+
+    .r1,
+    .r2,
+    .r3,
+    .r4,
+    .r5,
+    .r6 {
+        height: 8px;
+        background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+        margin-left: -11px;
+        margin-bottom: -13px;
+    }
+
+    .r1,
+    .r6 {
+        width: 343px;
+    }
+
+    .r2,
+    .r5 {
+        width: 169px;
+    }
+
+    .r3,
+    .r4 {
+        width: 90px;
+    }
+
+    .r4,
+    .r5,
+    .r6 {
+        transform: scaleX(-1);
+        float: right;
+    }
+
+    .r5 {
+        margin-top: -26px;
+    }
+
+    .r6 {
+        margin-top: -53px;
+    }
+
+
+    .elli {
+        overflow-x: hidden;
+        width: 166px;
+        height: 166px;
+        border-radius: 166px;
+        background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
+        filter: blur(97.25px);
+        position: absolute;
+        flex-shrink: 0;
+        top: 3%;
+        margin-left: 11rem;
+    }
+
+    .h1 {
+        color: white;
+        font-family: 'Urbanist';
+        font-weight: 800;
+        font-style: normal;
+        line-height: normal;
+        font-size: 28px;
+        text-align: center;
+    }
+
+
+
+
+
+}
+
+
+@media screen and (min-width:400px) and (max-width:549px) {
+    .hello {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #start {
+        margin-top: 90px;
+
+    }
+
+    #side {
+        float: right;
+        position: absolute;
+
+    }
+
+    .r1,
+    .r2,
+    .r3,
+    .r4,
+    .r5,
+    .r6 {
+        height: 8px;
+        background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+        margin-left: -11px;
+        margin-bottom: -13px;
+    }
+
+    .r1,
+    .r6 {
+        width: 343px;
+    }
+
+    .r2,
+    .r5 {
+        width: 169px;
+    }
+
+    .r3,
+    .r4 {
+        width: 90px;
+    }
+
+    .r4,
+    .r5,
+    .r6 {
+        transform: scaleX(-1);
+        float: right;
+    }
+
+    .r5 {
+        margin-top: -26px;
+    }
+
+    .r6 {
+        margin-top: -53px;
+    }
+
+
+    .elli {
+        overflow-x: hidden;
+        width: 166px;
+        height: 166px;
+        border-radius: 166px;
+        background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
+        filter: blur(97.25px);
+        position: absolute;
+        flex-shrink: 0;
+        top: 3%;
+        margin-left: 11rem;
+    }
+
+    .h1 {
+        color: white;
+        font-family: 'Urbanist';
+        font-weight: 800;
+        font-style: normal;
+        line-height: normal;
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:399px) {
+    .hello {
+        overflow-x: hidden;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #start {
+        margin-top: 90px;
+
+    }
+
+    #side {
+        float: right;
+        position: absolute;
+
+    }
+
+    .r1,
+    .r2,
+    .r3,
+    .r4,
+    .r5,
+    .r6 {
+        height: 8px;
+        background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+        margin-left: -11px;
+        margin-bottom: -13px;
+    }
+
+    .r1,
+    .r6 {
+        width: 343px;
+    }
+
+    .r2,
+    .r5 {
+        width: 169px;
+    }
+
+    .r3,
+    .r4 {
+        width: 90px;
+    }
+
+    .r4,
+    .r5,
+    .r6 {
+        transform: scaleX(-1);
+        float: right;
+    }
+
+    .r5 {
+        margin-top: -26px;
+    }
+
+    .r6 {
+        margin-top: -53px;
+    }
+
+
+    .elli {
+        overflow-x: hidden;
+        width: 166px;
+        height: 166px;
+        border-radius: 166px;
+        background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
+        filter: blur(97.25px);
+        position: absolute;
+        flex-shrink: 0;
+        top: 3%;
+        margin-left: 11rem;
+    }
+
+    .h1 {
+        color: white;
+        font-family: 'Urbanist';
+        font-weight: 800;
+        font-style: normal;
+        line-height: normal;
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:2000px) and (min-width:1001px) {
+    .whatisintern, .servicestext { 
+        color: #fff;
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 36px;
+        padding-right: 50px;
+    }
+    .hello {
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .box1{
+
+    height: 290px;
+    background: rgba(255, 255, 255, 0.20);
+    background: color(display-p3 1 1 1 / 0.20);
+    border: 2px solid rgba(255, 255, 255, 0.22);
+    border: 2px solid color(display-p3 1 1 1 / 0.22);
+    border-radius: 26px;
+}
+
+.durationtext-inside {
+    color: #ffffff;
+    font-family: Urbanist;
+    font-size: 19px;
+    margin-top: 0px;
+    font-weight: 400;
+}
+
+    .h1 {
+        color: white;
+        font-family: 'Urbanist';
+        font-weight: 800;
+        font-style: normal;
+        line-height: normal;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    #start {
+        margin-top: 50px;
+
+    }
+
+    .s1,
+    .bre3,
+    .s2,
+    .head4,
+    .ft3,
+    .card2 {
+        display: none;
+    }
+
+    #side {
+        float: right;
+    }
+
+    .r1,
+    .r2,
+    .r3,
+    .r4,
+    .r5,
+    .r6 {
+        height: 12px;
+        background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+        margin-left: -12px;
+    }
+
+    .r1,
+    .r6 {
+        width: 687px;
+    }
+
+    .r2,
+    .r5 {
+        width: 338px;
+    }
+
+    .r3,
+    .r4 {
+        width: 179px;
+    }
+
+    .r4,
+    .r5,
+    .r6 {
+        transform: scaleX(-1);
+        float: right;
+    }
+
+    .elli {
+        width: 280px;
+        height: 280px;
+        border-radius: 332px;
+        background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
+        filter: blur(194.5px);
+        position: absolute;
+
+    }
+}
+
+
+/* internship cont 1 */
+
+.internship_cont1img { 
+    width: 103%;
+    border-radius: 20px;
+    height: 300px;
+    object-fit: fill;
+}
+
+/* .whatisintern, .servicestext { 
+    color: #fff;
+    font-family: Urbanist;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 36px;
+    padding-right: 50px;
+} */
+
+
+.durationtext { 
+        color: #ff891d;
+    font-family: Urbanist;
+    font-size: 19px;
+    margin-top: 0px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 14px;
+}
+
+
+
+.servicestext {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    padding-right: 0px;
+    text-align: center;
+
+}
+
+.servicestext:hover { 
+    color: #ff891d;
+    cursor: pointer;
+}
+
+.internshiphead, .ourdomains, .queries { 
+    color: #ff891d;
+    text-align: left;
+    font-size: 30px;
+    font-family: Urbanist;
+    font-weight: 800;
+    
+}
+
+.queries { 
+    text-align: center;
+}
+
+.ourdomains { 
+    margin-top: 70px;
+    text-align: right;
+}
+
+.internshiphead:hover, .ourdomains:hover, .queries:hover {
+    color: #FFF;
+    cursor: pointer;
+}
+
+.internshipcard { 
+    border: 2px solid #FFF;
+    height: 488px;
+    margin-top: 36px;
+    text-align: center;
+}
+
+.ourservicesimg { 
+    width: 95%;
+    height: 292px;
+    margin-top: 8px;
+    object-fit: cover;
+}
+
+.internbtn { 
+    width: 190px;
+    height: 40px;
+    border-radius: 8px;
+    background: #FF891D;
+    font-family: Urbanist;
+    margin-top: 13px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 800;
+    border: 0px solid;
+}
+
+
+
+.box1t{
+    color: #ffffff;
+    font-family: Urbanist;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 36px;
+    padding: 30px;}
+.namet{
+    color: #FF891D;
+    font-family: Urbanist;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* accordian */
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .accordion {
+        --bs-accordion-border-radius: 12px;
+        --bs-accordion-border-color: #FF891D;
+        --bs-accordion-active-bg:  rgba(255, 255, 255, 0.20);
+        --bs-accordion-btn-focus-border-color: #FF891D;
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem  rgba(255, 215, 137, 0.25);
+        --bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+        --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='transparent' stroke-width='5' stroke-linecap='round' /%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round' /%3E%3C/svg%3E");
+    }
+    
+    .accordion-flush .accordion-item {
+        border: solid rgb(255, 255, 255, 0.5) 3px;;
+        border-radius: 12px;
+        margin-top: 1.8rem;
+        
+    }
+    
+    .accordion-button,
+    .accordion-header {
+        border-radius: inherit !important;
+        color: #1B0720;
+        font-family: urbanist;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 600;
+        height: 51px;
+        margin-top: 11px;
+    
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    
+    .accordion {
+        --bs-accordion-border-radius: 12px;
+        --bs-accordion-border-color: #FF891D;
+        --bs-accordion-active-bg:  rgba(255, 255, 255, 0.20);
+        --bs-accordion-btn-focus-border-color: #FF891D;
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem  rgba(255, 215, 137, 0.25);
+        --bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+        --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='transparent' stroke-width='5' stroke-linecap='round' /%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round' /%3E%3C/svg%3E");
+    }
+
+    
+    .accordion-flush .accordion-item {
+        border: solid rgb(255, 255, 255, 0.5) 3px;;
+        border-radius: 12px;
+        margin-top: 1.8rem;
+        
+    }
+    
+    .accordion-button,
+    .accordion-header {
+        border-radius: inherit !important;
+        color: #1B0720;
+        font-family: urbanist;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 600;
+        height: 51px;
+        margin-top: 11px;
+    
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+.accordion {
+    --bs-accordion-border-radius: 12px;
+    --bs-accordion-border-color: #FF891D;
+    --bs-accordion-active-bg: rgba(255, 255, 255, 0.20);
+    --bs-accordion-btn-focus-border-color: #FF891D;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 215, 137, 0.25);
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='transparent' stroke-width='5' stroke-linecap='round' /%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round' /%3E%3C/svg%3E");
+}
+
+.accordion-flush .accordion-item {
+    border: solid rgb(255, 255, 255, 0.5) 3px;
+    ;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+
+}
+
+.accordion-button,
+.accordion-header {
+    border-radius: inherit !important;
+    color: #1B0720;
+    font-family: urbanist;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    height: 24px;
+    margin-top: 10px;
+
+}
+
+}
+
+@media screen and (min-width:600px) {
+
+
+    .accordion-body {
+        padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+        color: #1B0720;
+        font-family: urbanist;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 38px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+
+
+    .accordion {
+        --bs-accordion-border-radius: 12px;
+        --bs-accordion-border-color: #FF891D;
+        --bs-accordion-active-bg:  rgba(255, 255, 255, 0.20);
+        --bs-accordion-btn-focus-border-color: #FF891D;
+        --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem  rgba(255, 215, 137, 0.25);
+        --bs-accordion-btn-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+        --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M14 3V24' stroke='transparent' stroke-width='5' stroke-linecap='round' /%3E%3Cpath d='M3 13L24 13' stroke='black' stroke-width='5' stroke-linecap='round' /%3E%3C/svg%3E");
+    }
+    
+    .accordion-body {
+        padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+        color: #1B0720;
+        font-family: urbanist;
+        font-size: 14px;
+        font-style: normal;
+        line-height: 38px;
+    }
+
+    .accordion-flush .accordion-item {
+        border: solid rgb(255, 255, 255, 0.5) 3px;;
+        border-radius: 12px;
+        margin-top: 1.8rem;
+        
+    }
+    
+    .accordion-button,
+    .accordion-header {
+        border-radius: inherit !important;
+        color: #1B0720;
+        font-family: urbanist;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        height: 112px;
+        margin-top: 10px;
+
+    }
+
+
+    .h1 {
+        color:#fff;
+        font-family: urbanist;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    
+    }
+ 
+@media screen and (min-width:1000px) and (max-width:1200px){
+
+    .servicestext {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 5px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .internship_cont1img {
+        width: 103%;
+        border-radius: 20px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .whatisintern { 
+        color: #fff;
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 36px;
+        padding-right: 50px;
+    }
+    .internshiphead, .ourdomains, .queries {
+        color: #ff891d;
+        text-align: left;
+        font-size: 30px;
+        font-family: Urbanist;
+        line-height: 33px;
+        font-weight: 800;
+    }
+
+    .durationtext {
+        color: #ff891d;
+        font-family: Urbanist;
+        font-size: 23px;
+        margin-top: 0px;
+        font-weight: 600;
+        text-align: left;
+        line-height: 23px;
+        margin-top: 10px;
+        padding-left: 65px;
+    }
+
+    .ourdomains { 
+        margin-top: 70px;
+        text-align: right;
+    }
+
+    .internshipcard {
+        border: 2px solid #FFF;
+        height: 497px;
+        margin-top: 36px;
+        text-align: center;
+    }
+
+    .durationtext-inside {
+        color: #ffffff;
+        font-family: Urbanist;
+        font-size: 23px;
+        margin-top: 0px;
+        font-weight: 600;
+    }
+.box1{
+    height: 290px;
+    margin-top: 15px;
+        background: rgba(255, 255, 255, 0.20);
+        background: color(display-p3 1 1 1 / 0.20);
+        border: 2px solid rgba(255, 255, 255, 0.22);
+        border: 2px solid color(display-p3 1 1 1 / 0.22);
+        border-radius: 26px;
+}
+.queries {
+    text-align: center;
+}
+}
+@media screen and (min-width:1201px) and (max-width:1400px){
+    .durationtext {
+        color: #ff891d;
+        font-family: Urbanist;
+        font-size: 17px;
+        margin-top: 0px;
+        font-weight: 900;
+        text-align: left;
+        margin-top: 7px;
+        padding-left: 14px;
+    }
+    .durationtext-inside{
+        color: #ffffff;
+        font-family: Urbanist;
+        font-size: 17px;
+        margin-top: 0px;
+        font-weight: 600;
+    }
+
+    .internshipcard {
+        border: 2px solid #FFF;
+        height: 488px;
+        margin-top: 36px;
+        width: 277px;
+        text-align: center;
+    }
+
+    .box1 {
+        margin-top: 15px;
+        width: 311px;
+        height: 290px;
+        background: rgba(255, 255, 255, 0.20);
+        background: color(display-p3 1 1 1 / 0.20);
+        border: 2px solid rgba(255, 255, 255, 0.22);
+        border: 2px solid color(display-p3 1 1 1 / 0.22);
+        border-radius: 26px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:749px){
+
+    .internshiphead, .ourdomains, .queries {
+        color: #ff891d;
+        text-align: center;
+        font-size: 30px;
+        line-height: 32px;
+        font-family: Urbanist;
+        font-weight: 800;
+    }
+    .whatisintern, .servicestext { 
+        color: #fff;
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 36px;
+     
+    }
+   
+  .box1 { height: 290px;
+    margin-top: 10px;
+        background: rgba(255, 255, 255, 0.20);
+        background: color(display-p3 1 1 1 / 0.20);
+        border: 2px solid rgba(255, 255, 255, 0.22);
+        border: 2px solid color(display-p3 1 1 1 / 0.22);
+        border-radius: 26px;}
+
+}
+@media screen and (min-width:750px) and (max-width:999px){
+    .whatisintern, .servicestext { 
+        color: #fff;
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 36px;
+ 
+    }
+
+   .servicestext {
+        color: #fff;
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 36px;
+    }
+    .queries { 
+        text-align: center;
+    }
+    
+    .internshiphead ,.ourdomains, .queries {
+        color: #ff891d;
+        /* text-align: left; */
+        font-size: 30px;
+        font-family: Urbanist;
+        font-weight: 800;
+        line-height: 35px;
+    }
+
+    .box1{
+        margin-top: 15px;
+        height: 290px;
+        background: rgba(255, 255, 255, 0.20);
+        background: color(display-p3 1 1 1 / 0.20);
+        border: 2px solid rgba(255, 255, 255, 0.22);
+        border: 2px solid color(display-p3 1 1 1 / 0.22);
+        border-radius: 26px;
+    } 
+    .durationtext-inside {
+        color: #ffffff;
+        font-family: Urbanist;
+        font-size: 18px;
+        margin-top: 0px;
+        font-weight: 600;
+    }
+
+    .durationtext {
+        color: #ff891d;
+        font-family: Urbanist;
+        font-size: 18px;
+        margin-top: 0px;
+        font-weight: 600;
+        text-align: left;
+        line-height: 23px;
+        margin-top: 10px;
+        padding-left: 45px;
+    }
+}
+@media screen and (min-width:300px) and (max-width:499px){
+   
+    .h1 {
+        color: white;
+        font-family: 'Urbanist';
+        font-weight: 800;
+        font-style: normal;
+        line-height: normal;
+        font-size: 28px;
+        text-align: center;
+    }
+    .internbtn {
+        width: 100%;
+        height: 40px;
+        border-radius: 8px;
+        background: #FF891D;
+        font-family: Urbanist;
+        margin-top: 13px;
+        font-size: 16px;
+        color: #FFF;
+        font-weight: 800;
+        border: 0px solid;
+    }
+   
+    .durationtext-inside {
+    color: #ffffff;
+    font-family: Urbanist;
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: 600;
+    text-align: center;
+}
+.box1t {
+    color: #ffffff;
+    font-family: Urbanist;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 36px;
+    padding: 23px;
+}
+    .durationtext-inside{
+        color: #ffffff;
+        font-family: Urbanist;
+        font-size: 18px;
+        margin-top: 0px;
+        font-weight: 600;
+    }
+    .whatisintern, .servicestext {
+        color: #fff;
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 36px;
+        
+    }
+    .servicestext {
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 5px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .internship_cont1img {
+        width: 103%;
+        border-radius: 20px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .whatisintern { 
+        color: #fff;
+        font-family: Urbanist;
+        font-size: 21px;
+        font-weight: 400;
+        text-align: justify;
+        line-height: 36px;
+    }
+    .internshiphead, .ourdomains, .queries {
+        color: #ff891d;
+        text-align: center;
+        font-size: 25px;
+        font-family: Urbanist;
+        font-weight: 800;
+        line-height: 28px;
+    }
+    .box1 { height: 290px;
+      margin-top: 10px;
+          background: rgba(255, 255, 255, 0.20);
+          background: color(display-p3 1 1 1 / 0.20);
+          border: 2px solid rgba(255, 255, 255, 0.22);
+          border: 2px solid color(display-p3 1 1 1 / 0.22);
+          border-radius: 26px;}
+  
+  }

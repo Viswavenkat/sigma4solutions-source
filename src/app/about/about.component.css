@@ -3250,3 +3250,251 @@ text-align: center;
 width:5px;
 }
 }
+
+
+
+
+.rr-Background{
+    position: relative;
+    margin-top:30px;
+}
+
+.rr-Stright-Alignment{
+    display:flex;
+    width:100%;
+}
+
+.rr-Separate-alignment{
+    width:20%
+}
+
+.rr-Center-Alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rr-Right-Alignment{
+      display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .rr-Background-TimeLine{
+    position: absolute;
+    width:100%;
+    top: 50px;
+    z-index: 1;  
+   left: -5px;
+ }
+
+
+
+ @keyframes CardAnimation1 {
+    from {
+        visibility: visible;
+      }
+       to {
+      visibility: hidden;
+    }
+  }
+  
+  .rr-TimeLine-Cards-Animation1{
+    visibility: hidden;
+    animation: 5s linear  0s forwards CardAnimation1;
+    animation-iteration-count: infinite;
+  }
+
+  .rr-TimeLine-Cards-Animation2{
+    visibility: hidden;
+    animation: 5s linear  5s forwards CardAnimation1;
+    animation-iteration-count: infinite;
+  }
+
+  .rr-TimeLine-Cards-Animation3{
+    visibility: hidden;
+    animation: 5s linear  10s forwards CardAnimation1;
+    animation-iteration-count: infinite;
+  }
+
+  .rr-TimeLine-Cards-Animation4{
+    visibility: hidden;
+    animation: 5s linear  14s forwards CardAnimation1;
+    animation-iteration-count: infinite;
+  }
+
+  .rr-TimeLine-Cards-Animation5{
+    visibility: hidden;
+    animation: 5s linear  18s forwards CardAnimation1;
+    animation-iteration-count: infinite;
+  }
+
+
+
+@media only screen and (min-width:1401px){
+ .rr-TimeLine-Year1{
+    margin-top: 50px;
+}
+.rr-TimeLine-Year2{
+    margin-top: 33px;
+}
+.rr-TimeLine-Year3{
+    margin-top: 21px;
+}
+.rr-TimeLine-Year4{
+    margin-top: 11px;
+}
+.rr-TimeLine-Year5{
+    margin-top: -5px;
+}
+
+.rr-TimeLine-Cards{
+    width:200px;
+    height: auto;
+}
+
+.rr-TimeLine-Cards:hover{
+    scale: 120%;
+    cursor: pointer;
+}
+
+.rr-First-TimeLine-Animation{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    animation: TimelinAnimation1  20s linear  infinite;
+    z-index: 5;
+  }
+  
+  @keyframes TimelinAnimation1 {
+    from {left: 0px; top:90px;}
+    to {left: 98%;top: 35px;}
+  }
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1400px){
+   
+
+     .rr-TimeLine-Year1{
+        margin-top: 40px;
+    }
+    .rr-TimeLine-Year2{
+        margin-top: 28px;
+    }
+    .rr-TimeLine-Year3{
+        margin-top: 18px;
+    }
+    .rr-TimeLine-Year4{
+        margin-top: 8px;
+    }
+    .rr-TimeLine-Year5{
+        margin-top: -5px;
+    }
+
+    .rr-TimeLine-Cards{
+        width:200px;
+        height: auto;
+    }
+    .rr-TimeLine-Cards:hover{
+        scale: 115%;
+        cursor: pointer;
+    }
+     
+    .rr-First-TimeLine-Animation{
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        animation: TimelinAnimation2  20s linear  infinite;
+        z-index: 5;
+      }
+      
+      @keyframes TimelinAnimation2 {
+        from {left: 0px; top:80px;}
+        to {left: 98%;top: 30px;}
+      }
+
+    
+}
+
+@media only screen and (min-width:1001px) and (max-width:1200px){
+   
+
+    .rr-TimeLine-Year1{
+       margin-top: 33px;
+   }
+   .rr-TimeLine-Year2{
+       margin-top: 23px;
+   }
+   .rr-TimeLine-Year3{
+       margin-top: 13px;
+   }
+   .rr-TimeLine-Year4{
+       margin-top: 5px;
+   }
+   .rr-TimeLine-Year5{
+       margin-top: -6px;
+   }
+
+
+   .rr-TimeLine-Cards{
+    width:95%;
+    height: auto;
+  }
+
+  .rr-TimeLine-Cards:hover{
+    scale: 110%;
+    cursor: pointer;
+  }
+ 
+.rr-First-TimeLine-Animation{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    animation: TimelinAnimation3  20s linear  infinite;
+    z-index: 5;
+  }
+  
+  @keyframes TimelinAnimation3 {
+    from {left: 0px; top:73px;}
+    to {left: 98%;top: 35px;}
+  }
+   
+}
+
+
+.rr-TimeLine-Year{
+    font-family: ' Urbanist';
+    color: #FFF;
+    z-index: 2;  
+}
+
+
+
+
+.rr-TimeLine-Dots{
+    width:14px;
+    height: 14px;
+    margin-top:23px;
+    z-index: 3;
+    position: relative;
+}
+
+
+.rr-TimeLine-Cards{
+    margin-top: 50px;
+    font-family: 'urbanist';
+    color: #fff;
+    padding: 20px 10px;
+    font-size: 14px;
+    border-radius: 12px;
+    border: 2px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.20);
+    box-shadow: 15px -10px 17px 16px rgba(255, 255, 255, 0.02) inset;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    overflow: hidden;
+    transition: scale 400ms;
+    
+}
+

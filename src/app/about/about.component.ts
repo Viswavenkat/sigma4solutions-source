@@ -8,7 +8,7 @@ import * as AOS from 'aos';
 })
 export class AboutComponent implements OnInit {
   scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // Scroll to top with smooth animation
+    window.scrollTo({ top: 0, behavior: 'smooth' }); 
   }
   ngOnInit() {
     AOS.init();

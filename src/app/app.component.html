@@ -33,19 +33,20 @@
         >
         <mat-menu #menu="matMenu" [ngClass]="['daps']">
           <button
+          [ngClass]="['daps2']"
+          mat-menu-item
+          [routerLink]="['/software_services']"
+        >
+          Software Services
+        </button>
+          <button
             [ngClass]="['daps2']"
             mat-menu-item
             [routerLink]="['/digitalmarketing']"
           >
             Digital Marketing
           </button>
-          <button
-            [ngClass]="['daps2']"
-            mat-menu-item
-            [routerLink]="['/software_services']"
-          >
-            Software Services
-          </button>
+   
           <button
             [ngClass]="['daps2']"
             mat-menu-item
@@ -190,22 +191,23 @@
         <button
           mat-flat-button
           [ngClass]="['button2']"
-          [routerLink]="['/digitalmarketing']"
-          data-bs-dismiss="offcanvas"
-        >
-          Digital Marketing
-        </button>
-      </div>
-      <div>
-        <button
-          mat-flat-button
-          [ngClass]="['button2']"
           [routerLink]="['/software_services']"
           data-bs-dismiss="offcanvas"
         >
           Software Services
         </button>
       </div>
+      <div>
+        <button
+          mat-flat-button
+          [ngClass]="['button2']"
+          [routerLink]="['/digitalmarketing']"
+          data-bs-dismiss="offcanvas"
+        >
+          Digital Marketing
+        </button>
+      </div>
+  
       <div>
         <button
           mat-flat-button
@@ -388,6 +390,15 @@
           <p class="footh3">Our Services</p>
           <div>
             <p
+              [routerLink]="['/software_services']"
+              (click)="scrollToTop()"
+              class="ftext"
+            >
+              Software Development
+            </p>
+          </div>
+          <div>
+            <p
               [routerLink]="['/digitalmarketing']"
               (click)="scrollToTop()"
               class="ftext1"
@@ -404,15 +415,6 @@
               Training Program
             </p>
           </div> 
-          <div>
-            <p
-              [routerLink]="['/software_services']"
-              (click)="scrollToTop()"
-              class="ftext"
-            >
-              Software Development
-            </p>
-          </div>
           <div>
             <p
               [routerLink]="['/e-publishing_services']"
@@ -519,6 +521,15 @@
   <div class="container-fluid">
     <p class="quicklink">Services</p>
     <div>
+      <p
+        [routerLink]="['/software_services']"
+        (click)="scrollToTop()"
+        class="ftext"
+      >
+        Software Services
+      </p>
+    </div>
+    <div>
         <p
           [routerLink]="['/digitalmarketing']"
           (click)="scrollToTop()"
@@ -536,15 +547,7 @@
           Training Program
         </p>
       </div>
-    <div>
-      <p
-        [routerLink]="['/software_services']"
-        (click)="scrollToTop()"
-        class="ftext"
-      >
-        Software Services
-      </p>
-    </div>
+    
     <div>
       <p
         [routerLink]="['/e-publishing_services']"

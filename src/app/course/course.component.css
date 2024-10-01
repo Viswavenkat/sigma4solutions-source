@@ -234,6 +234,7 @@
         color: #FFF;
         font-weight: 800;
         border: 0px solid;
+
     }
     
     .growmore{  
@@ -312,7 +313,6 @@
         border-radius: 8px;
         background: #FF891D;
         font-family: Urbanist;
-        margin-top: -1px;
         font-size: 16px;
         color: #FFF;
         font-weight: 800;
@@ -406,6 +406,7 @@
         color: #FFF;
         font-weight: 800;
         border: 0px solid;
+        margin-top: 19px;
     }
     
     .growmore{  
@@ -487,11 +488,10 @@
 .feesenroll { 
     width: 213px;
     height: 43px;
-
+    margin-top: 19px;
     border-radius: 8px;
     background: #FF891D;
     font-family: Urbanist;
-    margin-top: -1px;
     font-size: 19px;
     color: #FFF;
     font-weight: 800;
@@ -628,9 +628,6 @@
     }
     
 }
-
-
-
 
 @media screen and (max-width:600px) {
 

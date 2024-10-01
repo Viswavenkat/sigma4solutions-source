@@ -536,7 +536,7 @@
     width: 50px;
     height:auto;
     margin-top: 40px;
-    margin-right:50px;
+    padding-right:50px;
     float:right;
     cursor: pointer;
     z-index: 1;

@@ -30,7 +30,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-5">
-        <img src="../assets/course.jpg" alt="Training" class="courseimg" />
+        <img src="../assets/course.webp" alt="Training" class="courseimg" />
       </div>
       <div class="col-12 col-lg-6">
         <p class="courseheading">Mastering Full-Stack Development</p>
@@ -198,7 +198,7 @@
         </ul>
       </div>
       <div class="col-5 din">
-        <img src="../assets/790.jpg" alt="Training" class="applyimg" />
+        <img src="../assets/790.webp" alt="Training" class="applyimg" />
       </div>
     </div>
 
@@ -401,14 +401,13 @@
       <div class="feescard">
           <div class="feesamount">₹32,500<span class="feesamountpaid">₹55,500</span></div>
           <div class="totalsaving">Your Total Savings:₹23,000</div>
-
-          <p class="coursebundle">See Course Bundle&nbsp;&nbsp;<span class="text-decoration-underline" (click)="downloadFile()">Download Now</span></p>
-        <button class="feesenroll">Enroll Now</button>
+          <!-- <p class="coursebundle">See Course Bundle&nbsp;&nbsp;<span class="text-decoration-underline" (click)="downloadFile()">Download Now</span></p> -->
+        <button class="feesenroll" (click)="navigateToEnroll();scrollToTop();" >Enroll Now</button>
 
         </div>
         </div> 
         <div class="col-7">
-          <img src="../assets/grow.jpg" alt="training" class="growmore">
+          <img src="../assets/grow.jpeg" alt="training" class="growmore">
         </div>   
       </div>
   </div>
@@ -417,8 +416,8 @@
     <div class="feescard">
         <div class="feesamount">₹32,500<span class="feesamountpaid">₹55,500</span></div>
         <div class="totalsaving">Your Total Savings:₹23,000</div>
-        <p class="coursebundle">See Course Bundle&nbsp;&nbsp;<span class="text-decoration-underline" (click)="downloadFile()">Download Now</span></p>
-      <button class="feesenroll">Enroll Now</button>
+        <!-- <p class="coursebundle">See Course Bundle&nbsp;&nbsp;<span class="text-decoration-underline" (click)="downloadFile()">Download Now</span></p> -->
+      <button class="feesenroll" (click)="navigateToEnroll();scrollToTop();" >Enroll Now</button>
 
           <img src="../assets/grow.jpeg" alt="training" class="growmore">
     </div>

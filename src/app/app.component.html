@@ -16,17 +16,20 @@
 </head>
 <div class="container pcview" id="top">
   <div class="row">
-    <div class="col-3">
+    <div class="col-2">
       <a [routerLink]="['/']">
         <img src="./assets/Logo.png" alt="Logo" class="dtimg" />
       </a>
     </div>
-    <div class="col-6">
+    <div class="col-7">
       <div class="bn3">
         <a [ngClass]="['button1']" [routerLink]="['/']">Home </a>
 
         <span [ngClass]="['button1']" [routerLink]="['/about_us']"
           >About Us
+        </span>
+        <span [ngClass]="['button1']" [routerLink]="['/product']"
+          >Products
         </span>
         <a [ngClass]="['button1', 'dropdown-toggle']" [matMenuTriggerFor]="menu"
           >Services</a
@@ -174,6 +177,16 @@
       >
         About us
       </button>
+      <div>
+      <button
+        mat-flat-button
+        [ngClass]="['button2']"
+        [routerLink]="['/product']"
+        data-bs-dismiss="offcanvas"
+      >
+        Product
+      </button>
+    </div>
     </div>
     <div>
       <button
@@ -286,6 +299,7 @@
   </div>
 </div>
 
+<!-- <app-products></app-products> -->
 <router-outlet></router-outlet>
 
 <div id="foot">
@@ -385,6 +399,11 @@
               Services
             </p>
           </div>
+
+          <div>
+            <a [routerLink]="['/product']" (click)="scrollToTop()" class="ftext">Products</a>
+          </div>
+
         </div>
         <div class="col-sm-3 mx-auto ft">
           <p class="footh3">Our Services</p>
@@ -517,10 +536,16 @@
         Services
       </p>
     </div>
+    <div>
+      <a [routerLink]="['/product']" (click)="scrollToTop()" class="ftext">Products</a>
+    </div>
+    
+    
   </div>
   <div class="container-fluid">
     <p class="quicklink">Services</p>
     <div>
+     
       <p
         [routerLink]="['/software_services']"
         (click)="scrollToTop()"

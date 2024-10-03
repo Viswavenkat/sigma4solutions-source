@@ -25,6 +25,7 @@ import { CourseComponent } from './course/course.component';
 import { DigitalmarketingComponent } from './digitalmarketing/digitalmarketing.component';
 import { EnrollComponent } from './enroll/enroll.component';
 import { InternshipComponent } from './internship/internship.component';
+import { ProductsComponent } from './products/products.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,6 +39,7 @@ import { InternshipComponent } from './internship/internship.component';
     DigitalmarketingComponent,
     EnrollComponent,
     InternshipComponent,
+    ProductsComponent,
 
   ],
   imports: [

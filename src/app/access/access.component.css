@@ -465,7 +465,7 @@ font-size: 22px;
     }
 
         #start { 
-            margin-top: 90px;
+            margin-top: 48px;
         
         }
         
@@ -663,7 +663,7 @@ font-size: 22px;
     }
 
         #start { 
-            margin-top: 90px;
+            margin-top: 48px;
         
         }
         
@@ -673,60 +673,66 @@ font-size: 22px;
       
         }
     
-        .r1,.r2,.r3,.r4,.r5,.r6 { 
+        .r1,
+        .r2,
+        .r3,
+        .r4,
+        .r5,
+        .r6 {
             height: 8px;
-            background:  linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
-            margin-left: -11px;
-            margin-bottom: -13px;
+            background: linear-gradient(90deg, #A634FF 0%, rgba(228, 143, 255, 0.29) 47.40%, rgba(250, 243, 255, 0.00) 100%);
+            margin-left: -12px;
         }
-        
-        .r1,.r6 { 
-            width: 343px;
+    
+        .r1,
+        .r6 {
+            width: 687px;
         }
-        
-        .r2,.r5  { 
-            width: 169px;
+    
+        .r2,
+        .r5 {
+            width: 246px;
         }
-        
-        .r3,.r4 { 
-            width: 90px;
+    
+        .r3,
+        .r4 {
+            width: 179px;
         }
-        
-        .r4,.r5,.r6 {
+    
+        .r1,
+        .r2,
+        .r3 {
+            transform: scaleX(1);
+            float: left;
+        }
+        .r4,
+        .r5,
+        .r6 {
             transform: scaleX(-1);
             float: right;
         }
-
-        .r5 { 
-            margin-top: -26px;
-        }
-
-        .r6 { 
-            margin-top: -53px;
-        }
-       
-        
-        .elli { 
-            overflow-x: hidden;
-            width: 166px;
-            height: 166px;
-            border-radius: 166px;
+    
+        .elli {
+            width: 332px;
+            height: 332px;
+            border-radius: 332px;
             background: linear-gradient(180deg, #AA435C 0%, rgba(170, 67, 92, 0.00) 100%);
-            filter: blur(97.25px);
+            filter: blur(194.5px);
             position: absolute;
-            flex-shrink: 0; 
-            top: 3%;
-            margin-left: 11rem;
+            flex-shrink: 0;
+            top: 19%;
+            margin-left: 480px;
         }
-        
+    
         .h1 {
-            color:white;
+            color: white;
             font-family: 'Urbanist';
             font-weight: 800;
             font-style: normal;
             line-height: normal;
-            font-size: 28px;
+            font-size: 36px;
             text-align: center;
+            margin-top: 22px;
         }
         
         .about {

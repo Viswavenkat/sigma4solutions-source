@@ -5,7 +5,7 @@
     font-weight: 800;
     font-style: normal;
     line-height: normal;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
 }
 .body {
@@ -130,7 +130,7 @@
     }
 
     #start {
-        margin-top: 90px;
+        margin-top: 45px;
 
     }
 
@@ -202,7 +202,7 @@
         font-weight: 800;
         font-style: normal;
         line-height: normal;
-        font-size: 28px;
+        font-size: 40px;
         text-align: center;
     }
 
@@ -222,7 +222,7 @@
     }
 
     #start {
-        margin-top: 90px;
+        margin-top: 45px;
 
     }
 
@@ -294,7 +294,7 @@
         font-weight: 800;
         font-style: normal;
         line-height: normal;
-        font-size: 28px;
+        font-size: 30px;
         text-align: center;
     }
 }
@@ -308,7 +308,7 @@
     }
 
     #start {
-        margin-top: 90px;
+        margin-top: 45px;
 
     }
 
@@ -382,6 +382,7 @@
         line-height: normal;
         font-size: 28px;
         text-align: center;
+        margin-top: 19px;
     }
 }
 
@@ -394,6 +395,7 @@
         text-align: justify;
         line-height: 36px;
         padding-right: 50px;
+        padding: 18px;
     }
     .hello {
         overflow: hidden;
@@ -415,7 +417,7 @@
     color: #ffffff;
     font-family: Urbanist;
     font-size: 19px;
-    margin-top: 0px;
+    margin-top: 3px;
     font-weight: 400;
 }
 
@@ -427,6 +429,7 @@
         line-height: normal;
         font-size: 50px;
         text-align: center;
+        margin-top: 19px;
     }
 
     #start {
@@ -516,10 +519,10 @@
         color: #ff891d;
     font-family: Urbanist;
     font-size: 19px;
-    margin-top: 0px;
+    margin-top: 3px;
     font-weight: 600;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 3px;
     padding-left: 14px;
 }
 
@@ -773,12 +776,13 @@
     .h1 {
         color:#fff;
         font-family: urbanist;
-        font-size: 28px;
+        font-size: 30px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
         text-align: center;
         margin-top: 50px;
+        margin-top: 19px;
     }
 
     
@@ -807,6 +811,7 @@
         text-align: justify;
         line-height: 36px;
         padding-right: 50px;
+        padding: 18px;
     }
     .internshiphead, .ourdomains, .queries {
         color: #ff891d;
@@ -825,7 +830,7 @@
         font-weight: 600;
         text-align: left;
         line-height: 23px;
-        margin-top: 10px;
+        margin-top: 3px;
         padding-left: 65px;
     }
 
@@ -845,7 +850,7 @@
         color: #ffffff;
         font-family: Urbanist;
         font-size: 23px;
-        margin-top: 0px;
+        margin-top: 3px;
         font-weight: 600;
     }
 .box1{
@@ -869,7 +874,7 @@
         margin-top: 0px;
         font-weight: 900;
         text-align: left;
-        margin-top: 7px;
+        margin-top: 3px;
         padding-left: 14px;
     }
     .durationtext-inside{
@@ -916,6 +921,7 @@
         font-weight: 400;
         text-align: justify;
         line-height: 36px;
+        padding: 18px;
      
     }
    
@@ -936,6 +942,7 @@
         font-weight: 400;
         text-align: justify;
         line-height: 36px;
+        padding: 18px;
  
     }
 
@@ -973,7 +980,7 @@
         color: #ffffff;
         font-family: Urbanist;
         font-size: 18px;
-        margin-top: 0px;
+        margin-top: 3px;
         font-weight: 600;
     }
 
@@ -985,7 +992,7 @@
         font-weight: 600;
         text-align: left;
         line-height: 23px;
-        margin-top: 10px;
+        margin-top: 3px;
         padding-left: 45px;
     }
 }
@@ -997,8 +1004,9 @@
         font-weight: 800;
         font-style: normal;
         line-height: normal;
-        font-size: 28px;
+        font-size: 30px;
         text-align: center;
+        margin-top: 19px;
     }
     .internbtn {
         width: 100%;
@@ -1017,7 +1025,7 @@
     color: #ffffff;
     font-family: Urbanist;
     font-size: 18px;
-    margin-top: 0px;
+    margin-top: 3px;
     font-weight: 600;
     text-align: center;
 }
@@ -1034,16 +1042,17 @@
         color: #ffffff;
         font-family: Urbanist;
         font-size: 18px;
-        margin-top: 0px;
+        margin-top: 3px;
         font-weight: 600;
     }
     .whatisintern, .servicestext {
         color: #fff;
         font-family: Urbanist;
-        font-size: 21px;
+        font-size: 18px;
         font-weight: 400;
         text-align: justify;
         line-height: 36px;
+        padding: 18px;
         
     }
     .servicestext {
@@ -1066,6 +1075,7 @@
         font-weight: 400;
         text-align: justify;
         line-height: 36px;
+        padding: 18px;
     }
     .internshiphead, .ourdomains, .queries {
         color: #ff891d;

@@ -964,7 +964,7 @@
     }
 
     #start {
-        margin-top: 90px;
+        margin-top: 48px;
 
     }
 
@@ -1038,6 +1038,7 @@
         line-height: normal;
         font-size: 28px;
         text-align: center;
+        margin-top: 15px;
     }
 }
 
@@ -1050,7 +1051,7 @@
     }
 
     #start {
-        margin-top: 90px;
+        margin-top: 48px;
 
     }
 
@@ -1124,6 +1125,7 @@
         line-height: normal;
         font-size: 28px;
         text-align: center;
+        margin-top: 15px;
     }
 
 

@@ -11,6 +11,7 @@ import { DigitalmarketingComponent } from './digitalmarketing/digitalmarketing.c
 import { EnrollComponent } from './enroll/enroll.component';
 import { InternshipComponent } from './internship/internship.component';
 import { ProductsComponent } from './products/products.component';
+import { ProductDuplicateComponent } from './product-duplicate/product-duplicate.component';
 
 const routes: Routes = [
   { path:'' , component : HomeComponent},
@@ -24,6 +25,7 @@ const routes: Routes = [
   {path:"enroll", component:EnrollComponent},
   {path:"internship", component:InternshipComponent},
   {path:"product", component:ProductsComponent},
+  {path:"products", component:ProductDuplicateComponent},
 
   {path:"**", redirectTo:""},
   {path:"about_us", redirectTo:""},
@@ -36,6 +38,7 @@ const routes: Routes = [
   {path:"enroll",  redirectTo:""},
   {path:"internship",  redirectTo:""},
   {path:"product",  redirectTo:""},
+  {path:"products", redirectTo:""}
 ];
 
 @NgModule({
